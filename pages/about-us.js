@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
+import UmaEmpresa from '../components/AboutUs/UmaEmpresa';
+import ParceirosOficiais from '../components/AboutUs/ParceirosOficiais';
 import AboutUsContent from '../components/AboutUs/AboutUsContent';
 import FunFacts from '../components/Common/FunFacts';
 import GetStartedProject from '../components/Common/GetStartedProject';
@@ -14,12 +16,14 @@ class AboutUs extends Component {
             <React.Fragment>
                 <Navbar />
                 <PageBanner
-                    pageTitle="Plataforma Scora" 
+                    pageTitle="Sobre Nós" 
                     breadcrumbTextOne="" 
                     breadcrumbTextTwo="" 
                     breadcrumbUrl="" 
                 />
                 <AboutUsContent />
+                <UmaEmpresa />
+                <ParceirosOficiais />
                 <FunFacts />
 
                 <div className="pb-100">

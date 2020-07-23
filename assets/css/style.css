@@ -1186,7 +1186,8 @@ Main Banner Two Area CSS
   position: relative;
   z-index: 1;
   height: 800px;
-  background: #232442;
+  background: #13182d;
+  /* background: #232442; */
 }
 
 .main-banner-two .container-fluid {
@@ -1203,13 +1204,13 @@ Main Banner Two Area CSS
 }
 
 .main-banner-two .banner-image img:nth-child(1) {
-  top: -307px;
-  left: 9%;
+  top: -400px;
+  left: 0;
 }
 
 .main-banner-two .banner-image img:nth-child(2) {
-  right: 20%;
-  top: -236px;
+  right: 0;
+  top: -50px;
 }
 
 .main-banner-two .banner-image img:nth-child(3) {

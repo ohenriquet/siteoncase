@@ -1404,8 +1404,8 @@
     height: 1000px;
   }
   .main-banner-two .banner-image img:nth-child(1) {
-    top: -275px;
-    left: 26%;
+    top: -400px;
+    left: 0;
   }
   .main-banner-two .banner-image img:nth-child(2) {
     right: 22%;
