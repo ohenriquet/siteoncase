@@ -17,7 +17,7 @@ class Footer extends Component {
                                     <div className="footer-heading">
                                         <h3>Sobre Nós</h3>
                                     </div>
-                                    <p>A Plataforma Scora é um produto Oncase que tem o objetivo de otimizar a gestão das empresas com o uso de tecnologias de ponta que empoderam a tomada de decisões por parte dos gestores através de insights <i>on time</i>.</p>
+                                    <p>Somos parceiros na transformação digital das maiores organizações do Brasil e do mundo. Reunimos competências que combinam estratégias de Negócios e Tecnologia avançadas de Big Data, Business Intelligence, Analytics e Inteligência artificial para resolver problemas reais do mercado.</p>
                                 </div>
                             </div>
 

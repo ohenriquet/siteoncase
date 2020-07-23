@@ -39,13 +39,13 @@ export default class MyApp extends App {
         return (
             <React.Fragment>
                 <DefaultSeo
-                    title="Plataforma Scora - Otimizando a gestão das empresas"
-                    description="Plataforma Scora - Otimizando a gestão das empresas com tecnologia de ponta"
+                    title="Oncase | Experts em Big Data, Data Analytics e Inteligência Artificial"
+                    description="Oncase - Parceiros na transformação digital das maiores organizações do Brasil e do mundo."
                     openGraph={{
                         type: 'website',
                         locale: 'pt_BR',
-                        url: 'https://scora.ai/',
-                        site_name: 'Plataforma Scora - Otimizando a gestão das empresas',
+                        url: 'https://www.oncase.com.br/',
+                        site_name: 'Oncase | Experts em Big Data, Data Analytics e Inteligência Artificial',
                     }}
                 />
 
