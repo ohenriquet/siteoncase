@@ -69,8 +69,45 @@ class Navbar extends Component {
 
                                         <li className="nav-item">
                                             <Link href="/about-us" activeClassName="active">
-                                                <a className="nav-link">Sobre nós</a>
+                                                <a className="nav-link">Sobre</a>
                                             </Link>
+                                        </li>
+ 
+                                        <li className="nav-item">
+                                            <Link href="#">
+                                                <a className="nav-link">
+                                                    Produtos <i className="fas fa-chevron-down"></i>
+                                                </a>
+                                            </Link>
+
+                                            <ul className="dropdown-menu">
+                                                <li className="nav-item">
+                                                    <Link href="https://scora.ai" activeClassName="active">
+                                                        <a className="nav-link">Scora</a>
+                                                    </Link>
+                                                </li>
+                                                <li className="nav-item">
+                                                    <Link href="https://tarantulla.io/pt.html" activeClassName="active">
+                                                        <a className="nav-link">Tarantulla</a>
+                                                    </Link>
+                                                </li>
+                                                <li className="nav-item">
+                                                    <Link href="https://oktopusapp.com/" activeClassName="active">
+                                                        <a className="nav-link">Oktopus</a>
+                                                    </Link>
+                                                </li>
+                                                <li className="nav-item">
+                                                    <Link href="https://treinamentos.oncase.com.br/" activeClassName="active">
+                                                        <a className="nav-link">Treinamentos</a>
+                                                    </Link>
+                                                </li>
+                                                <li className="nav-item">
+                                                    <Link href="https://toolkit.onca.se/" activeClassName="active">
+                                                        <a className="nav-link">Toolkit</a>
+                                                    </Link>
+                                                </li>
+
+                                            </ul>
                                         </li>
  
                                         <li className="nav-item">
@@ -82,68 +119,58 @@ class Navbar extends Component {
 
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link href="/scora-demmand" activeClassName="active">
-                                                        <a className="nav-link">Scora Demmand</a>
+                                                    <Link href="/big-data" activeClassName="active">
+                                                        <a className="nav-link">Big Data</a>
                                                     </Link>
                                                 </li>
                                                 <li className="nav-item">
                                                     <Link href="/scora-maintenance" activeClassName="active">
-                                                        <a className="nav-link">Scora Maintenance</a>
+                                                        <a className="business-intelligence-analytics">Business Intelligence e Analytics</a>
                                                     </Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="/scora-risk" activeClassName="active">
-                                                        <a className="nav-link">Scora Risk</a>
+                                                    <Link href="/inteligencia-artificial" activeClassName="active">
+                                                        <a className="nav-link">Inteligência Artificial</a>
                                                     </Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="/scora-leads" activeClassName="active">
-                                                        <a className="nav-link">Scora Leads</a>
+                                                    <Link href="/oncase-labs" activeClassName="active">
+                                                        <a className="nav-link">Oncase Labs</a>
                                                     </Link>
                                                 </li>
-                                                <li className="nav-item">
-                                                    <Link href="/scora-journey" activeClassName="active">
-                                                        <a className="nav-link">Scora Journey</a>
-                                                    </Link>
-                                                </li>
-
                                             </ul>
                                         </li>
 
                                         <li className="nav-item">
                                             <Link href="#">
                                                 <a className="nav-link">
-                                                    Aplicações <i className="fas fa-chevron-down"></i>
+                                                    Tecnologias <i className="fas fa-chevron-down"></i>
                                                 </a>
                                             </Link>
 
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link href="/previsao-demanda" activeClassName="active">
-                                                        <a className="nav-link">Previsão de demanda</a>
+                                                    <Link href="/cloudera" activeClassName="active">
+                                                        <a className="nav-link">Cloudera</a>
                                                     </Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="/manutencao-preditiva" activeClassName="active">
-                                                        <a className="nav-link">Manutenção preditiva</a>
+                                                    <Link href="/mongodb" activeClassName="active">
+                                                        <a className="nav-link">MongoDB</a>
                                                     </Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="/analise-risco" activeClassName="active">
-                                                        <a className="nav-link">Análise de risco</a>
-                                                    </Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link href="/classificacao-leads" activeClassName="active">
-                                                        <a className="nav-link">Classificação de leads</a>
-                                                    </Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link href="/jornada-cliente" activeClassName="active">
-                                                        <a className="nav-link">Jornada do cliente</a>
+                                                    <Link href="/pentaho" activeClassName="active">
+                                                        <a className="nav-link">Pentaho</a>
                                                     </Link>
                                                 </li>
                                             </ul>
+                                        </li>
+
+                                        <li className="nav-item">
+                                            <Link href="https://blog.oncase.com.br" activeClassName="active">
+                                                <a className="nav-link">Blog</a>
+                                            </Link>
                                         </li>
 
                                         <li className="nav-item">
@@ -154,7 +181,7 @@ class Navbar extends Component {
                                     </ul>
 
                                     <div className="others-options">
-                                        <Link href="/contact">
+                                        <Link href="https://onca.se/contato">
                                             <a className="default-btn">
                                                 Solicite uma proposta 
                                                 <span></span>

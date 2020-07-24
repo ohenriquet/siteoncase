@@ -1,27 +1,25 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import ProjectDetailsContent from '../components/Aplicacoes/ClassificacaoLeadsContent';
-import ClassificacaoLeadsFunFacts from '../components/Aplicacoes/ClassificacaoLeadsFunFacts';
+import BigDataContent from '../components/Solucoes/BigDataContent';
 import Footer from '../components/Layouts/Footer';
 
-class ProjectDetails extends Component {
+class ServiceDetails extends Component {
     render() {
         return (
             <React.Fragment>
                 <Navbar />
                 <PageBanner
-                    pageTitle="Classificação de Leads" 
+                    pageTitle="Soluções de Big Data" 
                     breadcrumbTextOne="Home" 
-                    breadcrumbTextTwo="Project Details" 
+                    breadcrumbTextTwo="Service Details" 
                     breadcrumbUrl="/" 
                 />
-                <ProjectDetailsContent />
-                <ClassificacaoLeadsFunFacts />
+                <BigDataContent />
                 <Footer />
             </React.Fragment>
         );
     }
 }
 
-export default ProjectDetails;
+export default ServiceDetails;
