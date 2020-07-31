@@ -82,7 +82,7 @@ class Navbar extends Component {
 
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link href="https://scora.ai" activeClassName="active">
+                                                    <Link href="https://scora.ai/" activeClassName="active">
                                                         <a className="nav-link">Scora</a>
                                                     </Link>
                                                 </li>
@@ -124,8 +124,8 @@ class Navbar extends Component {
                                                     </Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="/scora-maintenance" activeClassName="active">
-                                                        <a className="business-intelligence-analytics">Business Intelligence e Analytics</a>
+                                                    <Link href="/business-intelligence-analytics" activeClassName="active">
+                                                        <a className="business-intelligence-analytics">BI e Analytics</a>
                                                     </Link>
                                                 </li>
                                                 <li className="nav-item">

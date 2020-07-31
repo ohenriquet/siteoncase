@@ -11,26 +11,29 @@ import Customers from '../components/Common/Customers';
 import Subscribe from '../components/Common/Subscribe';
 import Footer from '../components/Layouts/Footer';
 import Head from 'next/head';
+import ContactForm from '../components/Contact/ContactForm';
 
 class Index extends Component {
     render() {
         return (
             <React.Fragment>
                 <Head>
-                    <script type="text/javascript" src="/static/newsletter.js"></script>
+                    <script type="text/javascript" src="../static/rdstation.js"></script>
+                    <script type="text/javascript" src="../static/newsletter.js"></script>
                     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72638634-3"></script>
                     <script type="text/javascript" src="/static/ganalytics.js"></script>
                 </Head>
                 <Navbar />
                 <MainBanner />
                 <OurServices />
-                <AboutUs />
+                <Customers />
+                <ContactForm />
+                {/* <AboutUs />
                 <FunFacts />
                 <WorkingProcess />
-                {/* <Testimonial /> */}
+                <Testimonial />
                 <GetStartedProject />
-                <Customers />
-                <Subscribe />
+                <Subscribe />*/}
                 <Footer />
             </React.Fragment>
         );

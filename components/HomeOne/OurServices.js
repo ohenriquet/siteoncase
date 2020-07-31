@@ -6,22 +6,22 @@ class OurServices extends Component {
         return (
             <section className="services-section pt-100 pb-70">
                 <div className="container">
-                    <div className="section-title">
-                        <h2>Conheça nossas soluções</h2>
-                        <spam>A solução Scora pode ser aplicada em diferentes necessidades</spam>
+                    <div className="section-title"  style={{maxWidth:"800px", margin:"auto"}}>
+                        <h2 style={{margin:"10px 0 10px 0"}}>Oferecemos soluções para diversos problemas de dados, inclusive o seu.</h2>
+                        <spam >Reunimos competências que combinam estratégias de Negócios e Tecnologia avançadas de Big Data, Business Intelligence, Analytics e Inteligência artificial para resolver problemas reais do mercado.</spam>
                     </div>
 
-                    <div className="row justify-content-md-center">
-                        <div className="col-lg-4 col-md-6">
+                    <div className="row justify-content-md-center" style={{margin:"20px 0 0 0"}}>
+                        <div className="col-lg-6 col-md-6">
                             <div className="single-services-box">
                                 <div className="icon">
                                     <i className="flaticon-big-data"></i>
                                 </div>
 
-                                <h3>Previsão de demanda</h3>
-                                <p>Analise quais ativos terão mais procura do mercado em um futuro próximo ou distante, e planeje o seu estoque ou catálogo de produtos de forma inteligente.</p>
+                                <h3>Big Data</h3>
+                                <p>Implementamos soluções de Big Data para ajudar sua empresa a extrair valor de um grande volume de dados provinientes de várias fontes diferentes.</p>
 
-                                <Link href="/scora-demmand">
+                                <Link href="/big-data">
                                     <a className="service-btn">
                                         Saiba mais
                                         <i className="flaticon-right"></i>
@@ -30,16 +30,16 @@ class OurServices extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-6 col-md-6">
                             <div className="single-services-box">
                                 <div className="icon">
                                     <i className="flaticon-data-analytics"></i>
                                 </div>
 
-                                <h3>Manutenção preditiva</h3>
-                                <p>Monitore todas as variáveis relacionadas com a manutenção dos seus equipamentos para fazer as manutenções inteligentes e otimizar os custos.</p>
+                                <h3>Business Intelligence e Analytics</h3>
+                                <p>Tornamos possíveis análises preditivas, prescritivas e descritivas que ajudam a responder, em altíssimo nível de complexidade e granularidade.</p>
 
-                                <Link href="/scora-maintenance">
+                                <Link href="/business-intelligence-analytics">
                                     <a className="service-btn">
                                         Saiba mais
                                         <i className="flaticon-right"></i>
@@ -48,34 +48,15 @@ class OurServices extends Component {
                             </div>
                         </div>
 
-                        {/* <div class="w-100"></div> */}
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-services-box">
-                                <div className="icon">
-                                    <i className="flaticon-document"></i>
-                                </div>
-                                <h3>Análise de risco</h3>
-                                <p>Use inteligência artificial para analisar contratos e documentos e receba indicaçõs de possíveis riscos relacionados com as atividades.</p>
-
-                                <Link href="/scora-risk">
-                                    <a className="service-btn">
-                                        Saiba mais
-                                        <i className="flaticon-right"></i>
-                                    </a>
-                                </Link>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-6 col-md-6">
                             <div className="single-services-box">
                                 <div className="icon">
                                     <i className="flaticon-chart"></i>
                                 </div>
-                                <h3>Classificação de leads</h3>
-                                <p>Identifique leads que possuem fit com o seu produto e otimize os esforços da equipe de vendas, aumentando a receita sem aumentar a equipe.</p>
+                                <h3>Inteligência Artificial</h3>
+                                <p>O nosso foco é encontrar casos de utilização reais para incorporar Inteligência Artificial (IA) nas diferentes áreas corporativas, com recurso às melhores tecnologias.</p>
 
-                                <Link href="/scora-leads">
+                                <Link href="/inteligencia-artificial">
                                     <a className="service-btn">
                                         Saiba mais
                                         <i className="flaticon-right"></i>
@@ -84,15 +65,16 @@ class OurServices extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-6 col-md-6">
                             <div className="single-services-box">
                                 <div className="icon">
                                     <i className="flaticon-science"></i>
                                 </div>
-                                <h3>Jornada do cliente</h3>
-                                <p>Aprimore a experiência dos seus clientes identificando os pontos de contato que precisam de melhoria, receba insights e monitore o impacto das alterações.</p>
-
-                                <Link href="/scora-journey">
+                                <h3>Cocriação de produtos</h3>
+                                <center>
+                                    <p>Somos especializados em soluções de Co-criação e Desenvolvimento de Produtos Analíticos, Sistemas de Predição ou Prescrição sob medida.</p>
+                                    </center>
+                                <Link href="/oncase-labs">
                                     <a className="service-btn">
                                         Saiba mais
                                         <i className="flaticon-right"></i>

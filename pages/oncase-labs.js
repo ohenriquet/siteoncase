@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
-import PageBannerBD from '../components/Common/PageBannerBD';
-import BigDataContent from '../components/Solucoes/BigDataContent';
+import PageBannerLab from '../components/Common/PageBannerLab';
+import OncaseLabContent from '../components/Solucoes/OncaseLabContent';
 import Footer from '../components/Layouts/Footer';
 
 class ServiceDetails extends Component {
@@ -9,13 +9,13 @@ class ServiceDetails extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBannerBD
-                    pageTitle="Soluções de Big Data" 
+                <PageBannerLab
+                    pageTitle="Oncase Labs" 
                     breadcrumbTextOne="Home" 
                     breadcrumbTextTwo="Service Details" 
                     breadcrumbUrl="/" 
                 />
-                <BigDataContent />
+                <OncaseLabContent />
                 <Footer />
             </React.Fragment>
         );

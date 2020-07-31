@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
-import PageBannerBD from '../components/Common/PageBannerBD';
-import BigDataContent from '../components/Solucoes/BigDataContent';
+import PageBannerCloudera from '../components/Common/PageBannerCloudera';
+import ClouderaContent from '../components/Solucoes/ClouderaContent';
 import Footer from '../components/Layouts/Footer';
 
 class ServiceDetails extends Component {
@@ -9,13 +9,13 @@ class ServiceDetails extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBannerBD
-                    pageTitle="Soluções de Big Data" 
+                <PageBannerCloudera
+                    pageTitle="Cloudera" 
                     breadcrumbTextOne="Home" 
                     breadcrumbTextTwo="Service Details" 
                     breadcrumbUrl="/" 
                 />
-                <BigDataContent />
+                <ClouderaContent />
                 <Footer />
             </React.Fragment>
         );

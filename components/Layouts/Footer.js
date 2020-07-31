@@ -24,33 +24,64 @@ class Footer extends Component {
                             <div className="col-lg-2 col-md-6 col-sm-6">
                                 <div className="single-footer-widget">
                                     <div className="footer-heading">
+                                        <h3>Produtos</h3>
+                                    </div>
+
+                                    <ul className="footer-quick-links">
+                                        <li>
+                                            <Link href="https://scora.ai/">
+                                                <a>Scora</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="https://tarantulla.io/pt.html">
+                                                <a>Tarantulla</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="https://oktopusapp.com/">
+                                                <a>Oktopus</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="https://treinamentos.oncase.com.br/">
+                                                <a>Treinamentos</a>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="https://toolkit.onca.se/">
+                                                <a>Toolkit</a>
+                                            </Link>
+                                        </li>
+                                    </ul>
+                                </div>    
+                            </div>
+
+                            <div className="col-lg-2 col-md-6 col-sm-6">
+                                <div className="single-footer-widget">
+                                    <div className="footer-heading">
                                         <h3>Soluções</h3>
                                     </div>
 
                                     <ul className="footer-quick-links">
                                         <li>
-                                            <Link href="/scora-demmand">
-                                                <a>Scora Demmand</a>
+                                            <Link href="/big-data">
+                                                <a>Big Data</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/scora-maintenance">
-                                                <a>Scora Maintenance</a>
+                                            <Link href="/business-intelligence-analytics">
+                                                <a>BI e Analytics</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="scora-risk">
-                                                <a>Scora Risk</a>
+                                            <Link href="/inteligencia-artificial">
+                                                <a>Inteligência Artificial</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/scora-leads">
-                                                <a>Scora Leads</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/scora-journey">
-                                                <a>Scora Journey</a>
+                                            <Link href="/oncase-labs">
+                                                <a>Oncase Labs</a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -60,69 +91,23 @@ class Footer extends Component {
                             <div className="col-lg-2 col-md-6 col-sm-6">
                                 <div className="single-footer-widget">
                                     <div className="footer-heading">
-                                        <h3>Aplicações</h3>
+                                        <h3>Tecnologias</h3>
                                     </div>
 
                                     <ul className="footer-quick-links">
                                         <li>
-                                            <Link href="/previsao-demanda">
-                                                <a>Previsão de demanda</a>
+                                            <Link href="/cloudera">
+                                                <a>Cloudera</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/manutencao-preditiva">
-                                                <a>Manutenção preditiva</a>
+                                            <Link href="/mongodb">
+                                                <a>MongoDB</a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/analise-risco">
-                                                <a>Análise de risco</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/classificacao-leads">
-                                                <a>Classificação de leads</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/jornada-cliente">
-                                                <a>Jornada do cliente</a>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>    
-                            </div>
-
-                            <div className="col-lg-2 col-md-6 col-sm-6">
-                                <div className="single-footer-widget">
-                                    <div className="footer-heading">
-                                        <h3>Links importantes</h3>
-                                    </div>
-
-                                    <ul className="footer-quick-links">
-                                        <li>
-                                            <Link href="//oncase.com.br/">
-                                                <a>Site Oncase</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="//blog.oncase.com.br/">
-                                                <a>Blog Oncase</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="//treinamentos.oncase.com.br/">
-                                                <a>Treinamentos Oncase</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="//toolkit.onca.se/">
-                                                <a>Oncase Toolkit</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="//www.youtube.com/c/OncaseBr">
-                                                <a>Oncase TV</a>
+                                            <Link href="/Pentaho">
+                                                <a>Pentaho</a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -150,11 +135,7 @@ class Footer extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6">
                                 <p> 
-                                    &copy; {currentYear} Scora. Todos os direitos reservados por 
-
-                                    <a href="//oncase.com.br/" target="_blank">
-                                        Oncase
-                                    </a>
+                                    &copy; {currentYear} Oncase. Todos os direitos reservados.
                                 </p>
                             </div>
 

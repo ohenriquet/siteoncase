@@ -3028,10 +3028,30 @@ Page Title Area CSS
         z-index: -1;
     }
 }
-.page-title-areab {
+.page-title-areabd {
     position: relative;
     z-index: 1;
     background-image: url(../../images/page-title-bg-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #000000;
+        left: 0;
+        top: 0;
+        opacity: 0.7;
+        z-index: -1;
+    }
+}
+.page-title-areabia {
+    position: relative;
+    z-index: 1;
+    background-image: url(../../images/page-title-bg-3.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

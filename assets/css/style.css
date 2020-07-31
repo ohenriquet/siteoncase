@@ -3345,7 +3345,7 @@ Partner Area CSS
 /*================================================
 Page Title Area CSS
 =================================================*/
-.page-title-area {
+.page-title-area,.page-title-areabd,.page-title-areabi,.page-title-areaia,.page-title-arealab,.page-title-areacloudera  {
   position: relative;
   z-index: 1;
   background-image: url(../../images/page-title-bg.jpg);
@@ -3355,7 +3355,28 @@ Page Title Area CSS
   height: 500px;
 }
 
-.page-title-area::before {
+.page-title-areabd {
+  background-image: url(../../images/page-title-bg-2.jpg);
+}
+
+.page-title-areabi {
+  background-image: url(../../images/page-title-bg-3.jpg);
+}
+
+.page-title-areaia {
+  background-image: url(../../images/page-title-bg-4.jpg);
+}
+
+.page-title-arealab {
+  background-image: url(../../images/page-title-bg-5.jpg);
+}
+
+.page-title-areacloudera {
+  background-image: url(../../images/page-title-bg-6.jpg);
+}
+
+
+.page-title-area::before,.page-title-areabd::before,.page-title-areabia::before,.page-title-areaia::before,.page-title-arealab::before,.page-title-areacloudera::before  {
   content: "";
   position: absolute;
   height: 100%;
