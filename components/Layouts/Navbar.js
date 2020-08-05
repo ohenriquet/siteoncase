@@ -69,7 +69,7 @@ class Navbar extends Component {
 
                                         <li className="nav-item">
                                             <Link href="/about-us" activeClassName="active">
-                                                <a className="nav-link">Sobre</a>
+                                                <a className="nav-link">Sobre nós</a>
                                             </Link>
                                         </li>
  
@@ -113,7 +113,7 @@ class Navbar extends Component {
                                         <li className="nav-item">
                                             <Link href="#">
                                                 <a className="nav-link">
-                                                    Soluções <i className="fas fa-chevron-down"></i>
+                                                    Serviços <i className="fas fa-chevron-down"></i>
                                                 </a>
                                             </Link>
 
@@ -166,18 +166,12 @@ class Navbar extends Component {
                                                 </li>
                                             </ul>
                                         </li>
-
-                                        <li className="nav-item">
-                                            <Link href="https://blog.oncase.com.br" activeClassName="active">
-                                                <a className="nav-link">Blog</a>
-                                            </Link>
-                                        </li>
-
+{/* 
                                         <li className="nav-item">
                                             <Link href="/contact" activeClassName="active">
                                                 <a className="nav-link">Contato</a>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
 
                                     <div className="others-options">
