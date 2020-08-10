@@ -62,7 +62,7 @@ class ServiceDetailsContent extends Component {
                         <div className="col md-8">
                             <h5>Data Pipeline</h5>
                             <p>Vivemos em um mundo onde apensas 1% do universo de dados é de fato analisado. Isso se deve ao grande volume e a complexidade das transformações desses dados, principalmente os não-estruturados.</p>
-                            <p>Ajudamos organizações a manter a vantegem competiva face à concorrência, por meio da construção de uma estratégia de Data Pipeline moderna para captura, integração, enriquecimento e orquestração de dados.</p>
+                            <p>Ajudamos organizações a manter a vantagem competiva face à concorrência, por meio da construção de uma estratégia de Data Pipeline moderna para captura, integração, enriquecimento e orquestração de dados.</p>
                         </div>
                         <div className="col md-4">
                             <img src={require("../../images/service-details/big-data5.png")} alt="Big Data" style={{width:"auto", height:"400px", marginleft:"0em", marginright:"0em"}}/>

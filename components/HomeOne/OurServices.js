@@ -7,7 +7,7 @@ class OurServices extends Component {
             <section className="services-section pt-100 pb-70">
                 <div className="container">
                     <div className="section-title"  style={{maxWidth:"800px", margin:"auto"}}>
-                        <h2 style={{margin:"10px 0 10px 0"}}>Oferecemos soluções para diversos problemas de dados, inclusive o seu.</h2>
+                        <h2 style={{margin:"10px 0 10px 0"}}>Oferecemos soluções para problemas de dados, inclusive o seu.</h2>
                         <spam >Reunimos competências que combinam estratégias de Negócios e Tecnologia avançadas de Big Data, Business Intelligence, Analytics e Inteligência artificial para resolver problemas reais do mercado.</spam>
                     </div>
 
