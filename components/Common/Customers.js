@@ -4,74 +4,38 @@ import Link from 'next/link';
 class Customers extends Component {
     render() {
         return (
-            <div className="partner-section pt-100 pb-70">
-                <div className="container">
-                    <div className="partner-title">
-                        <h2>Clientes que fazem parte da nossa história</h2>
+            <div className="py-4">
+                <div class="small text-center text-muted mb-lg-3">Clientes que fazem parte da nossa história</div>
+
+                <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
+                    <div class="col mt-3 mb-lg-0">
+                            <a>
+                                <img src={require("../../images/partner/partner1.png")} alt="MPD" />
+                            </a>
                     </div>
 
-                    <div className="partner-list">
-                        <div className="partner-item">
-                                <a>
-                                    <img src={require("../../images/partner/partner1.png")} alt="image" />
-                                </a>
-                        </div>
+                    <div class="col mt-3 mb-lg-0">
+                            <a>
+                                <img src={require("../../images/partner/partner2.png")} alt="CAERN" />
+                            </a>
+                    </div>
 
-                        <div className="partner-item">
-                                <a>
-                                    <img src={require("../../images/partner/partner2.png")} alt="image" />
-                                </a>
-                        </div>
+                    <div class="col mt-3 mb-lg-0">
+                            <a>
+                                <img src={require("../../images/partner/partner3.png")} alt="CATENO" />
+                            </a>
+                    </div>
 
-                        <div className="partner-item">
-                                <a>
-                                    <img src={require("../../images/partner/partner3.png")} alt="image" />
-                                </a>
-                        </div>
+                    <div class="col mt-3 mb-lg-0">
+                            <a>
+                                <img src={require("../../images/partner/partner4.png")} alt="CAIXA" />
+                            </a>
+                    </div>
 
-                        <div className="partner-item">
-                                <a>
-                                    <img src={require("../../images/partner/partner4.png")} alt="image" />
-                                </a>
-                        </div>
-
-                        <div className="partner-item">
-                                <a>
-                                    <img src={require("../../images/partner/partner5.png")} alt="image" />
-                                </a>
-                        </div>
-
-                        {/* <div className="partner-item">
-                            <Link href="/partner">
-                                <a>
-                                    <img src={require("../../images/partner/partner5.png")} alt="image" />
-                                </a>
-                            </Link>
-                        </div>
-
-                        <div className="partner-item">
-                            <Link href="/partner">
-                                <a>
-                                    <img src={require("../../images/partner/partner6.png")} alt="image" />
-                                </a>
-                            </Link>
-                        </div>
-
-                        <div className="partner-item">
-                            <Link href="/partner">
-                                <a>
-                                    <img src={require("../../images/partner/partner7.png")} alt="image" />
-                                </a>
-                            </Link>
-                        </div>
-
-                        <div className="partner-item">
-                            <Link href="/partner">
-                                <a>
-                                    <img src={require("../../images/partner/partner8.png")} alt="image" />
-                                </a>
-                            </Link>
-                        </div> */}
+                    <div class="col mt-3 mb-lg-0">
+                            <a>
+                                <img src={require("../../images/partner/partner5.png")} alt="SEBRAE" />
+                            </a>
                     </div>
                 </div>
 

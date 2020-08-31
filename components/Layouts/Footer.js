@@ -9,183 +9,57 @@ class Footer extends Component {
         return (
             <React.Fragment>
                 {/* Top Footer Section */}
-                <footer className="footer-section ptb-100">
+                <footer className="footer-section ptb-100" style={{paddingBottom:"50px",paddingTop:"65px"}}>
                     <div className="container">
-                        <div className="row">
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                                <div className="single-footer-widget">
-                                    <div className="footer-heading">
-                                        <h3>Sobre Nós</h3>
-                                    </div>
-                                    <p>Somos parceiros na transformação digital das maiores organizações do Brasil e do mundo. Reunimos competências que combinam estratégias de Negócios e Tecnologia avançadas de Big Data, Business Intelligence, Analytics e Inteligência artificial para resolver problemas reais do mercado.</p>
+                       <div class="row pt-4 mb-4 mb-lg-5">
+                            <div className="col-12 col-lg-6 mb-4 mb-lg-0">
+                                <img class="mb-3" src={require("../../images/logo-white.png")} width="175" />
+                                <div class="mt-3 d-none d-lg-block">
+                                    <p  style={{color:"#f8f9fa"}}>Somos parceiros na transformação digital das maiores organizações do Brasil e do mundo. Reunimos competências que combinam estratégias de Negócios e Tecnologia avançadas de Big Data, Business Intelligence, Analytics e Inteligência artificial para resolver problemas reais do mercado.</p>
                                 </div>
+                                <div class="mt-3 d-none d-lg-block">
+                                    <a class="transparent-link mr-2" href="//www.facebook.com/oncasesolucoes/"><i className="fab fa-facebook" style={{color:"#d9d3d3"}}></i></a>
+                                    <a class="transparent-link mr-2" href="//www.youtube.com/c/OncaseBr"><i className="fab fa-youtube" style={{color:"#d9d3d3"}}></i></a>
+                                    <a class="transparent-link mr-2" href="//www.instagram.com/oncasetecnologia/"><i className="fab fa-instagram" style={{color:"#d9d3d3"}}></i></a>
+                                    <a class="transparent-link mr-2" href="//www.linkedin.com/company/oncase/"><i className="fab fa-linkedin" style={{color:"#d9d3d3"}}></i></a>
+                                    <a class="transparent-link mr-2" href="//twitter.com/oncase"><i className="fab fa-twitter" style={{color:"#d9d3d3"}}></i></a>
+                                </div>
+                                <div class="border-top mt-3 d-lg-none"></div>
                             </div>
 
-                            <div className="col-lg-2 col-md-6 col-sm-6">
-                                <div className="single-footer-widget">
-                                    <div className="footer-heading">
-                                        <h3>Produtos</h3>
-                                    </div>
-
-                                    <ul className="footer-quick-links">
-                                        <li>
-                                            <Link href="https://scora.ai/">
-                                                <a>Scora</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="https://tarantulla.io/pt.html">
-                                                <a>Tarantulla</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="https://oktopusapp.com/">
-                                                <a>Oktopus</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="https://treinamentos.oncase.com.br/">
-                                                <a>Treinamentos</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="https://toolkit.onca.se/">
-                                                <a>Toolkit</a>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>    
+                            <div class="col-6 col-lg-2">
+                                <h4 style={{color:"#f8f9fa"}}>Produtos</h4>
+                                <div class="mb-1"><a class="text-light" href="https://scora.ai/"><span>Scora</span></a></div>
+                                <div class="mb-1"><a class="text-light" href="https://tarantulla.io/pt.html"><span>Tarantulla</span></a></div>
+                                <div class="mb-1"><a class="text-light" href="https://oktopusapp.com/"><span>Oktopus</span></a></div>
+                                <div class="mb-1"><a class="text-light" href="https://treinamentos.oncase.com.br/"><span>Treinamentos</span></a></div>
+                                <div class="mb-1"><a class="text-light" href="https://toolkit.onca.se/"><span>Toolkit</span></a></div>
                             </div>
-
-                            <div className="col-lg-2 col-md-6 col-sm-6">
-                                <div className="single-footer-widget">
-                                    <div className="footer-heading">
-                                        <h3>Soluções</h3>
-                                    </div>
-
-                                    <ul className="footer-quick-links">
-                                        <li>
-                                            <Link href="/big-data">
-                                                <a>Big Data</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/business-intelligence-analytics">
-                                                <a>BI e Analytics</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/inteligencia-artificial">
-                                                <a>Inteligência Artificial</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/oncase-labs">
-                                                <a>Oncase Labs</a>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>    
+                            <div class="col-6 col-lg-2">
+                                <h4 style={{color:"#f8f9fa"}}>Soluções</h4>
+                                <div class="mb-1"><a class="text-light" href="/big-data"><span>Big Data</span></a></div>
+                                <div class="mb-1"><a class="text-light" href="/business-intelligence-analytics"><span>BI e Analytics</span></a></div>
+                                <div class="mb-1"><a class="text-light" href="/inteligencia-artificial"><span>Inteligência Artificial</span></a></div>
+                                <div class="mb-1"><a class="text-light" href="/oncase-labs"><span>Oncase Labs</span></a></div>
                             </div>
-
-                            <div className="col-lg-2 col-md-6 col-sm-6">
-                                <div className="single-footer-widget">
-                                    <div className="footer-heading">
-                                        <h3>Tecnologias</h3>
-                                    </div>
-
-                                    <ul className="footer-quick-links">
-                                        <li>
-                                            <Link href="/cloudera">
-                                                <a>Cloudera</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/mongodb">
-                                                <a>MongoDB</a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/Pentaho">
-                                                <a>Pentaho</a>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                                </div>    
+                            <div class="col-6 col-lg-2">
+                                <h4 style={{color:"#f8f9fa"}}>Tecnologias</h4>
+                                <div class="mb-1"><a class="text-light" href="/cloudera"><span>Cloudera</span></a></div>
+                                <div class="mb-1"><a class="text-light" href="/mongodb"><span>MongoDB</span></a></div>
+                                <div class="mb-1"><a class="text-light" href="/Pentaho"><span>Pentaho</span></a></div>
                             </div>
-
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                            <div class="small mb-2 mb-lg-0"><span class="text-muted mr-5">&copy; {currentYear} Oncase. Todos os direitos reservados.</span></div>
+                            </div>
                         </div>
                     </div>
 
-                    <div className="lines">
-                        <div className="line"></div>
-                        <div className="line"></div>
-                        <div className="line"></div>
-                    </div>
-
-                    <div className="partner-shape-img1">
-                        <img src={require("../../images/shape/partnar-shape-2.png")} alt="image" />
-                    </div>
+                  
                 </footer>
                 {/* End Top Footer Section */}
 
-                {/* Bottom Footer Section */}
-                <div className="copyright-area">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-6">
-                                <p> 
-                                    &copy; {currentYear} Oncase. Todos os direitos reservados.
-                                </p>
-                            </div>
-
-                            <div className="col-lg-6 col-md-6">
-                            <ul className="footer-social">
-                                        <li>
-                                            <Link href="//www.facebook.com/oncasesolucoes/">
-                                                <a>
-                                                    <i className="fab fa-facebook-f"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-
-                                        <li>
-                                            <Link href="//www.youtube.com/c/OncaseBr">
-                                                <a>
-                                                    <i className="fab fa-youtube"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-
-                                        <li>
-                                            <Link href="//www.instagram.com/oncasetecnologia/">
-                                                <a>
-                                                    <i className="fab fa-instagram"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-
-                                        <li>
-                                            <Link href="//www.linkedin.com/company/oncase/">
-                                                <a>
-                                                    <i className="fab fa-linkedin"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-
-                                        <li>
-                                            <Link href="//twitter.com/oncase">
-                                                <a>
-                                                    <i className="fab fa-twitter"></i>
-                                                </a>
-                                            </Link>
-                                        </li>
-                                    </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Bottom Footer Section */}
             </React.Fragment>
         );
     }

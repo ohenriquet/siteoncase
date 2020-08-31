@@ -9,51 +9,27 @@ class MainBanner extends Component {
                 <div className="d-table">
                     <div className="d-table-cell">
                         <div className="container-fluid">
-                            <div className="row align-items-center">
-                                <div className="col-lg-6 col-md-12">
+                            <div className="row justify-content-between align-items-center py-5">
+                                <div className="col-12 col-md-5 order-2 order-md-1">
                                     <div className="main-banner-content">
-                                        <h1>Decisões inteligentes baseadas em dados</h1>
-
-                                        <div className="banner-btn">
-                                            <Link href="/about-us">
-                                                <a className="default-btn-one">
-                                                    Saiba mais
-                                                    <span></span>
-                                                </a>
-                                            </Link>
-
-                                            <Link href="/contact">
-                                                <a className="default-btn" href="/contact">
-                                                    Entre em contato 
-                                                    <span></span>
-                                                </a>
-                                            </Link>
+                                        <h1 class="display-4">Decisões inteligentes baseadas em dados</h1>
+                                        <div class="row align-items-center">
+                                        <div class="col-12 col-md-5 mb-2 mb-md-0"><a class="btn btn-block btn-lg btn-primary" href="/about-us">Saiba mais</a></div>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className="col-lg-6 col-md-12">
-                                    <div className="banner-image">
-                                        {/* Shape images */}
-                                        <ReactWOW animation='fadeInUp' delay='1s'>
-                                            <img src={require("../../images/home-two/image.png")} alt="image" />
-                                        </ReactWOW>
-
+                                <div className="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
                                         {/* Main image */}
                                         <ReactWOW animation='zoomIn' delay='1s'>
-                                            <img src={require("../../images/home-two/image.png")} alt="image" />
+                                            <img class="w-100" src={require("../../images/home-two/image.png")} alt="image" />
                                         </ReactWOW>
-                                    </div>
+
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                </div>
-
-               
-                <div className="shape-dot">
-                    <img src={require("../../images/main-banner-shape/main-banner-dot.png")} alt="main-image" />
                 </div>
             </div>
         );
