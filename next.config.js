@@ -30,7 +30,16 @@ module.exports = withPlugins([
         exportTrailingSlash: true,
         exportPathMap: function () {
             return {
-                '/': { page: '/' }
+                '/': { page: '/' },
+                '/contact': { page: '/contact' },
+                '/about-us': { page: '/about-us' },
+                '/big-data': { page: '/big-data' },
+                '/business-intelligence-analytics': { page: '/business-intelligence-analytics' },
+                '/inteligencia-artificial': { page: '/inteligencia-artificial' },
+                '/oncase-labs': { page: '/oncase-labs' },
+                '/cloudera': { page: '/cloudera' },
+                '/mongodb': { page: '/mongodb' },
+                '/pentaho': { page: '/pentaho' }
             };
         }
     }],

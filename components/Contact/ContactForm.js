@@ -14,7 +14,7 @@ class ContactForm extends Component {
                         </div>
                         <div className="col-lg-6">
                             <h3>Fale com um representante de vendas</h3>
-                            <div role="main" id="contato-scora-platform-938d46daa069102c4e42"></div>
+                            <div role="main" id="contato-site-oncase-684522cc1f1f67acc288"></div>
                         </div>
                     </div>
                 </div>

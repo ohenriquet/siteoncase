@@ -1,1 +1,1 @@
-new RDStationForms('contato-scora-platform-938d46daa069102c4e42', 'UA-72638634-1').createForm();
+new RDStationForms('contato-site-oncase-684522cc1f1f67acc288', 'UA-72638634-1').createForm();

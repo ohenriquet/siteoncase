@@ -29,7 +29,9 @@ class MyDocument extends Document {
                     <Main />
                     <NextScript />
                 </body>
+                <script type="text/javascript" src="/static/rdstation.js"></script>
                 <script type="text/javascript" src="/static/newsletter.js"></script>
+
             </Html>
         )
     }

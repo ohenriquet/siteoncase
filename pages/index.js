@@ -18,9 +18,9 @@ class Index extends Component {
         return (
             <React.Fragment>
                 <Head>
+                    {/* <script type="text/javascript" src="../static/newsletter.js"></script> */}
                     <script type="text/javascript" src="../static/rdstation.js"></script>
-                    <script type="text/javascript" src="../static/newsletter.js"></script>
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72638634-3"></script>
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72638634-1"></script>
                     <script type="text/javascript" src="/static/ganalytics.js"></script>
                 </Head>
                 <Navbar />

@@ -12,8 +12,8 @@ class Contact extends Component {
         return (
             <React.Fragment>
                 <Head>
-                    {/* <script type="text/javascript" src="../static/rdstation.js"></script>
-                    <script type="text/javascript" src="../static/newsletter.js"></script> */}
+                    <script type="text/javascript" src="../static/rdstation.js"></script>
+                    {/* <script type="text/javascript" src="../static/newsletter.js"></script> */}
                 </Head>
                 <Navbar />
                 <PageBanner

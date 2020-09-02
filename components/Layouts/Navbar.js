@@ -61,17 +61,6 @@ class Navbar extends Component {
 
                                 <div className={classOne} id="navbarSupportedContent">
                                     <ul className="navbar-nav">
-                                        {/* <li className="nav-item">
-                                            <Link href="/" activeClassName="active">
-                                                <a className="nav-link">Home</a>
-                                            </Link>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link href="/about-us" activeClassName="active">
-                                                <a className="nav-link">Sobre nós</a>
-                                            </Link>
-                                        </li> */}
  
                                         <li className="nav-item">
                                             <Link href="#">
@@ -175,7 +164,7 @@ class Navbar extends Component {
                                     </ul>
 
                                     <div className="others-options">
-                                        <Link href="https://onca.se/contato">
+                                        <Link href="/contact">
                                             <a className="default-btn">
                                                 Solicite uma proposta 
                                                 <span></span>
