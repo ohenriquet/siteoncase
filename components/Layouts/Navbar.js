@@ -40,12 +40,12 @@ class Navbar extends Component {
                     <div className="main-nav">
                         <div className="container">
                             <nav className="navbar navbar-expand-md navbar-light">
-                                <Link href="/">
-                                    <a className="navbar-brand" style={{maxWidth:175}}>
+                                {/* <Link href="/"> */}
+                                    <a href="/" className="navbar-brand" style={{maxWidth:175}}>
                                         <img src={require("../../images/logo-white.png")} className="white-logo" alt="logo" />
                                         <img src={require("../../images/logo-black.png")} className="black-logo" alt="logo" />
                                     </a>
-                                </Link>
+                                {/* </Link> */}
 
                                 <button 
                                     onClick={this.toggleNavbar} 
@@ -71,29 +71,20 @@ class Navbar extends Component {
 
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link href="https://scora.ai/" activeClassName="active">
-                                                        <a className="nav-link">Scora</a>
-                                                    </Link>
+                                                        <a href="https://scora.ai/" className="nav-link">Scora</a>
+
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="https://tarantulla.io/pt.html" activeClassName="active">
-                                                        <a className="nav-link">Tarantulla</a>
-                                                    </Link>
+                                                        <a href="https://tarantulla.io/pt.html" className="nav-link">Tarantulla</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="https://oktopusapp.com/" activeClassName="active">
-                                                        <a className="nav-link">Oktopus</a>
-                                                    </Link>
+                                                        <a href="https://oktopusapp.com/" className="nav-link">Oktopus</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="https://treinamentos.oncase.com.br/" activeClassName="active">
-                                                        <a className="nav-link">Treinamentos</a>
-                                                    </Link>
+                                                        <a href="https://treinamentos.oncase.com.br/" className="nav-link">Treinamentos</a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="https://toolkit.onca.se/" activeClassName="active">
-                                                        <a className="nav-link">Toolkit</a>
-                                                    </Link>
+                                                        <a href="https://toolkit.onca.se/" className="nav-link">Toolkit</a>
                                                 </li>
 
                                             </ul>
@@ -155,21 +146,15 @@ class Navbar extends Component {
                                                 </li>
                                             </ul>
                                         </li>
-{/* 
-                                        <li className="nav-item">
-                                            <Link href="/contact" activeClassName="active">
-                                                <a className="nav-link">Contato</a>
-                                            </Link>
-                                        </li> */}
                                     </ul>
 
                                     <div className="others-options">
-                                        <Link href="/contact">
-                                            <a className="default-btn">
+                                        {/* <Link href="/contact" activeClassName="active"> */}
+                                            <a href="/contact" className="default-btn">
                                                 Solicite uma proposta 
                                                 <span></span>
                                             </a>
-                                        </Link>
+                                        {/* </Link> */}
                                     </div>
                                 </div>
                             </nav>

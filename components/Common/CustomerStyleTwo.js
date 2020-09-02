@@ -11,8 +11,8 @@ const options = {
     autoplay: true,
     margin: 30,
     navText: [
-        "<i class='flaticon-left-chevron'></i>",
-        "<i class='flaticon-right-chevron'></i>"
+        "<i className='flaticon-left-chevron'></i>",
+        "<i className='flaticon-right-chevron'></i>"
     ],
     responsive: {
         0: {

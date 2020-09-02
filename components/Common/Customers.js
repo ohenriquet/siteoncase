@@ -5,34 +5,34 @@ class Customers extends Component {
     render() {
         return (
             <div className="py-4">
-                <div class="small text-center text-muted mb-lg-3">Clientes que fazem parte da nossa história</div>
+                <div className="small text-center text-muted mb-lg-3">Clientes que fazem parte da nossa história</div>
 
-                <div class="row justify-content-center justify-content-lg-between text-center align-items-center">
-                    <div class="col mt-3 mb-lg-0">
+                <div className="row justify-content-center justify-content-lg-between text-center align-items-center">
+                    <div className="col mt-3 mb-lg-0">
                             <a>
                                 <img src={require("../../images/partner/partner1.png")} alt="MPD" />
                             </a>
                     </div>
 
-                    <div class="col mt-3 mb-lg-0">
+                    <div className="col mt-3 mb-lg-0">
                             <a>
                                 <img src={require("../../images/partner/partner2.png")} alt="CAERN" />
                             </a>
                     </div>
 
-                    <div class="col mt-3 mb-lg-0">
+                    <div className="col mt-3 mb-lg-0">
                             <a>
                                 <img src={require("../../images/partner/partner3.png")} alt="CATENO" />
                             </a>
                     </div>
 
-                    <div class="col mt-3 mb-lg-0">
+                    <div className="col mt-3 mb-lg-0">
                             <a>
                                 <img src={require("../../images/partner/partner4.png")} alt="CAIXA" />
                             </a>
                     </div>
 
-                    <div class="col mt-3 mb-lg-0">
+                    <div className="col mt-3 mb-lg-0">
                             <a>
                                 <img src={require("../../images/partner/partner5.png")} alt="SEBRAE" />
                             </a>

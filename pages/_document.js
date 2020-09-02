@@ -17,11 +17,11 @@ class MyDocument extends Document {
                     <script type="text/javascript" src="/static/ganalytics.js"></script>
 
                     {/* Design System */}
-                    <meta charset="UTF-8" />
+                    <meta charSet="UTF-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+                    <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
                     <link rel="stylesheet" href="css/main.css" />
-                    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+                    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossOrigin="anonymous"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
                     <script src="js/bootstrap.bundle.min.js"></script>
                 </Head>
