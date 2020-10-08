@@ -27,22 +27,22 @@ class Footer extends Component {
                                 <div className="border-top mt-3 d-lg-none"></div>
                             </div>
 
-                            <div className="col-6 col-lg-2">
-                                <h4 style={{color:"#f8f9fa"}}>Produtos</h4>
-                                <div className="mb-1"><a className="text-light" href="https://scora.ai/"><span>Scora</span></a></div>
-                                <div className="mb-1"><a className="text-light" href="https://tarantulla.io/pt.html"><span>Tarantulla</span></a></div>
-                                <div className="mb-1"><a className="text-light" href="https://oktopusapp.com/"><span>Oktopus</span></a></div>
-                                <div className="mb-1"><a className="text-light" href="https://treinamentos.oncase.com.br/"><span>Treinamentos</span></a></div>
-                                <div className="mb-1"><a className="text-light" href="https://toolkit.onca.se/"><span>Toolkit</span></a></div>
-                            </div>
-                            <div className="col-6 col-lg-2">
+                            <div className="col-6 col-lg-3">
                                 <h4 style={{color:"#f8f9fa"}}>Soluções</h4>
-                                <div className="mb-1"><a className="text-light" href="/big-data"><span>Big Data</span></a></div>
-                                <div className="mb-1"><a className="text-light" href="/business-intelligence-analytics"><span>BI e Analytics</span></a></div>
+                                <div className="mb-1"><a className="text-light" href="/plataforma"><span>Plataforma</span></a></div>
+                                <div className="mb-1"><a className="text-light" href="/oncase-labs"><span>Cocriação</span></a></div>
+                                <div className="mb-1"><a className="text-light" href="/scora-journey"><span>Jornada do Cliente</span></a></div>
+                                <div className="mb-1"><a className="text-light" href="/scora-acqua"><span>Saneamento</span></a></div>
+                                <div className="mb-1"><a className="text-light" href="/scora-demand"><span>Previsão de Demanda</span></a></div>
+                            </div>
+                            {/* <div className="col-6 col-lg-2">
+                                <h4 style={{color:"#f8f9fa"}}>Soluções</h4>
+                                <div className="mb-1"><a className="text-light" href="/big-data"><span>Tarantulla</span></a></div>
+                                <div className="mb-1"><a className="text-light" href="/business-intelligence-analytics"><span>Oktopus</span></a></div>
                                 <div className="mb-1"><a className="text-light" href="/inteligencia-artificial"><span>Inteligência Artificial</span></a></div>
                                 <div className="mb-1"><a className="text-light" href="/oncase-labs"><span>Oncase Labs</span></a></div>
-                            </div>
-                            <div className="col-6 col-lg-2">
+                            </div> */}
+                            <div className="col-6 col-lg-3">
                                 <h4 style={{color:"#f8f9fa"}}>Tecnologias</h4>
                                 <div className="mb-1"><a className="text-light" href="/cloudera"><span>Cloudera</span></a></div>
                                 <div className="mb-1"><a className="text-light" href="/mongodb"><span>MongoDB</span></a></div>

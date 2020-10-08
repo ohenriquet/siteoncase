@@ -63,6 +63,22 @@ class Navbar extends Component {
                                     <ul className="navbar-nav">
  
                                         <li className="nav-item">
+                                            <Link href="/plataforma">
+                                                <a className="nav-link">
+                                                    Plataforma
+                                                </a>
+                                            </Link>
+                                        </li>
+ 
+                                        <li className="nav-item">
+                                            <Link href="/oncase-labs">
+                                                <a className="nav-link">
+                                                    Cocriação
+                                                </a>
+                                            </Link>
+                                        </li>
+
+                                        <li className="nav-item">
                                             <Link href="#">
                                                 <a className="nav-link">
                                                     Produtos <i className="fas fa-chevron-down"></i>
@@ -71,77 +87,18 @@ class Navbar extends Component {
 
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                        <a href="https://scora.ai/" className="nav-link">Scora</a>
-
-                                                </li>
-                                                <li className="nav-item">
-                                                        <a href="https://tarantulla.io/pt.html" className="nav-link">Tarantulla</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                        <a href="https://oktopusapp.com/" className="nav-link">Oktopus</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                        <a href="https://treinamentos.oncase.com.br/" className="nav-link">Treinamentos</a>
-                                                </li>
-                                                <li className="nav-item">
-                                                        <a href="https://toolkit.onca.se/" className="nav-link">Toolkit</a>
-                                                </li>
-
-                                            </ul>
-                                        </li>
- 
-                                        <li className="nav-item">
-                                            <Link href="#">
-                                                <a className="nav-link">
-                                                    Serviços <i className="fas fa-chevron-down"></i>
-                                                </a>
-                                            </Link>
-
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/big-data" activeClassName="active">
-                                                        <a className="nav-link">Big Data</a>
+                                                    <Link href="/scora-journey" activeClassName="active">
+                                                        <a className="nav-link">Jornada do Cliente</a>
                                                     </Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="/business-intelligence-analytics" activeClassName="active">
-                                                        <a className="business-intelligence-analytics">BI e Analytics</a>
+                                                    <Link href="/scora-acqua" activeClassName="active">
+                                                        <a className="nav-link">Saneamento</a>
                                                     </Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link href="/inteligencia-artificial" activeClassName="active">
-                                                        <a className="nav-link">Inteligência Artificial</a>
-                                                    </Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link href="/oncase-labs" activeClassName="active">
-                                                        <a className="nav-link">Oncase Labs</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                        <li className="nav-item">
-                                            <Link href="#">
-                                                <a className="nav-link">
-                                                    Tecnologias <i className="fas fa-chevron-down"></i>
-                                                </a>
-                                            </Link>
-
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/cloudera" activeClassName="active">
-                                                        <a className="nav-link">Cloudera</a>
-                                                    </Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link href="/mongodb" activeClassName="active">
-                                                        <a className="nav-link">MongoDB</a>
-                                                    </Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link href="/pentaho" activeClassName="active">
-                                                        <a className="nav-link">Pentaho</a>
+                                                    <Link href="/scora-demand" activeClassName="active">
+                                                        <a className="nav-link">Previsão de Demanda</a>
                                                     </Link>
                                                 </li>
                                             </ul>

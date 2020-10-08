@@ -9,7 +9,7 @@ class OurServices extends Component {
                     <div className="py-5">
                         <div className="row justify-content-center text-center py-3">
                             <div className="col-12 col-md-8">
-                            <h1 className="display-4">Oferecemos soluções para problemas de dados, inclusive o seu.</h1>
+                            <h1 className="display-4">Oferecemos soluções inteligentes para problemas de dados</h1>
                             <p className="lead mb-4">Reunimos competências que combinam estratégias de Negócios e Tecnologia avançadas de Big Data, Business Intelligence, Analytics e Inteligência artificial para resolver problemas reais do mercado.</p>
                             </div>
                         </div>
@@ -20,9 +20,9 @@ class OurServices extends Component {
                             <div className="mb-2">
                                     <i className="flaticon-big-data"  style={{fontSize:"32px"}}></i>
                             </div>
-                            <h4>Big Data</h4>
+                            <h4>Plataforma</h4>
                             <div className="small">
-                                <p>Implementamos soluções de Big Data para ajudar sua empresa a extrair valor de um grande volume de dados provinientes de várias fontes diferentes.</p>
+                                <p>Utilize nossa consultoria para otimizar ou construir sua plataforma de dados em cloud ou local, da captação e extração de dados ao data warehouse.</p>
                                 <Link href="/big-data">
                                     <a className="weight-500 action-link">
                                         <span>Saiba mais
@@ -35,9 +35,9 @@ class OurServices extends Component {
                             <div className="mb-2">
                                     <i className="flaticon-data-analytics"  style={{fontSize:"32px"}}></i>
                             </div>
-                            <h4>BI e Analytics</h4>
+                            <h4>Cocriação</h4>
                             <div className="small">
-                                <p>Tornamos possíveis análises preditivas, prescritivas e descritivas que ajudam a responder, em altíssimo nível de complexidade e granularidade.</p>
+                                <p>Somos especializados em soluções de Cocriação e Desenvolvimento de Produtos Analíticos, feitos sob medida para atender as necessidades do seu time.</p>
                                 <Link href="/business-intelligence-analytics">
                                     <a className="weight-500 action-link">
                                         <span>Saiba mais
@@ -50,9 +50,9 @@ class OurServices extends Component {
                             <div className="mb-2">
                                     <i className="flaticon-chart"  style={{fontSize:"32px"}}></i>
                             </div>
-                            <h4>Inteligência Artificial</h4>
+                            <h4>Jornada do Cliente</h4>
                             <div className="small">
-                                <p>O nosso foco é encontrar casos de utilização reais para incorporar Inteligência Artificial (IA) nas diferentes áreas corporativas, com recurso às melhores tecnologias.</p>
+                                <p>Enriqueça a jornada dos seus clientes e receba insights para oferecer outros produtos do seu catálogo.</p>
                                 <Link href="/inteligencia-artificial">
                                     <a className="weight-500 action-link">
                                         <span>Saiba mais
@@ -65,9 +65,24 @@ class OurServices extends Component {
                             <div className="mb-2">
                                     <i className="flaticon-science"  style={{fontSize:"32px"}}></i>
                             </div>
-                            <h4>Cocriação de produtos</h4>
+                            <h4>Saneamento</h4>
                             <div className="small">
-                                <p>Somos especializados em soluções de Co-criação e Desenvolvimento de Produtos Analíticos, Sistemas de Predição ou Prescrição sob medida.</p>
+                                <p>Monitore todas as variáveis relacionadas ao desempenho dos seus hidrômetros para saber o melhor momento de realizar manutenção ou substituição.</p>
+                                <Link href="/oncase-labs">
+                                    <a className="weight-500 action-link">
+                                        <span>Saiba mais
+                                        <i className="flaticon-right"></i></span>
+                                    </a>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-3 mb-4 mb-md-0">
+                            <div className="mb-2">
+                                    <i className="flaticon-science"  style={{fontSize:"32px"}}></i>
+                            </div>
+                            <h4>Previsão de Demanda</h4>
+                            <div className="small">
+                                <p>Analise informações estratégicas do meracado para prever tendências e planeje os seus recursos de forma inteligente.</p>
                                 <Link href="/oncase-labs">
                                     <a className="weight-500 action-link">
                                         <span>Saiba mais

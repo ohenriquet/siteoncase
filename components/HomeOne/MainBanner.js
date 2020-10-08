@@ -12,7 +12,7 @@ class MainBanner extends Component {
                             <div className="row justify-content-between align-items-center py-5">
                                 <div className="col-12 col-md-5 order-2 order-md-1">
                                     <div className="main-banner-content">
-                                        <h1 className="display-4">Decisões inteligentes baseadas em dados</h1>
+                                        <h1 className="display-4">Levamos inteligência aos seus dados</h1>
                                         <div className="row align-items-center">
                                         <div className="col-12 col-md-5 mb-2 mb-md-0">
                                             <Link href="/about-us">
