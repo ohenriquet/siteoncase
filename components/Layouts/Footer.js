@@ -29,11 +29,14 @@ class Footer extends Component {
 
                             <div className="col-6 col-lg-3">
                                 <h4 style={{color:"#f8f9fa"}}>Soluções</h4>
-                                <div className="mb-1"><a className="text-light" href="/plataforma"><span>Plataforma</span></a></div>
-                                <div className="mb-1"><a className="text-light" href="/oncase-labs"><span>Cocriação</span></a></div>
-                                <div className="mb-1"><a className="text-light" href="/scora-journey"><span>Jornada do Cliente</span></a></div>
-                                <div className="mb-1"><a className="text-light" href="/scora-acqua"><span>Saneamento</span></a></div>
-                                <div className="mb-1"><a className="text-light" href="/scora-demand"><span>Previsão de Demanda</span></a></div>
+                                {/* <div className="mb-1"><a className="text-light" href="/plataforma"><span>Plataforma</span></a></div> */}
+                                <div className="mb-1"><a className="text-light"><Link href="/oncase-labs"><span>Cocriação</span></Link></a></div>
+                                <div className="mb-1"><a className="text-light"><Link href="/scora-journey"><span>Jornada do Cliente</span></Link></a></div>
+
+                                {/* <div className="mb-1"><a className="text-light" href="/oncase-labs"><span>Cocriação</span></a></div>
+                                <div className="mb-1"><a className="text-light" href="/scora-journey"><span>Jornada do Cliente</span></a></div> */}
+                                {/* <div className="mb-1"><a className="text-light" href="/scora-acqua"><span>Saneamento</span></a></div>
+                                <div className="mb-1"><a className="text-light" href="/scora-demand"><span>Previsão de Demanda</span></a></div> */}
                             </div>
                             {/* <div className="col-6 col-lg-2">
                                 <h4 style={{color:"#f8f9fa"}}>Soluções</h4>
@@ -44,9 +47,12 @@ class Footer extends Component {
                             </div> */}
                             <div className="col-6 col-lg-3">
                                 <h4 style={{color:"#f8f9fa"}}>Tecnologias</h4>
-                                <div className="mb-1"><a className="text-light" href="/cloudera"><span>Cloudera</span></a></div>
+                                <div className="mb-1"><a className="text-light"><Link href="/cloudera"><span>Cloudera</span></Link></a></div>
+                                <div className="mb-1"><a className="text-light"><Link href="/mongodb"><span>MongoDB</span></Link></a></div>
+                                <div className="mb-1"><a className="text-light"><Link href="/pentaho"><span>Pentaho</span></Link></a></div>
+                                {/* <div className="mb-1"><a className="text-light" href="/cloudera"><span>Cloudera</span></a></div>
                                 <div className="mb-1"><a className="text-light" href="/mongodb"><span>MongoDB</span></a></div>
-                                <div className="mb-1"><a className="text-light" href="/Pentaho"><span>Pentaho</span></a></div>
+                                <div className="mb-1"><a className="text-light" href="/Pentaho"><span>Pentaho</span></a></div> */}
                             </div>
                         </div>
                         <div className="row">

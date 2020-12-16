@@ -125,7 +125,7 @@ class ServiceDetailsContent extends Component {
                             <h4>Os verdadeiros especialistas em Tecnologia Pentaho</h4>
                         </div>
                         <div className="d-flex justify-content-center partner align-items-center" style={{display:"flex !important", maxWidth:"900px", alignItems:"center !important"}}>
-                                <img src={require("../../images/service-details/pentaho12.png")} alt="Pentaho" style={{width:"auto", height:"200px", marginLeft:"0em", marginRight:"5em"}}/>
+                                <img src={require("../../images/service-details/pentaho12.png")} alt="Pentaho" style={{width:"auto", marginLeft:"0em", marginRight:"5em"}}/>
                                 <p>Como <strong>Parceiros e Formadores Oficiais Pentaho em toda a região LATAM</strong>, ajudamos organizações a reduzir o tempo de implementação de uma estratégia Data Analytics, utilizando software de open source, que possibilita a integração de outras tecnologias. <br></br>Em 2011, recebemos a distinção de “Channel Managers Pick for all LATAM” da Pentaho. Com projetos em todo o mundo e casos de sucesso em várias indústrias, a Oncase é reconhecida pelo seu conhecimento tecnológico e “Paixão pela Excelência”.</p>
                         </div>
                     </div>

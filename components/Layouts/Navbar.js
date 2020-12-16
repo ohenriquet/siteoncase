@@ -63,22 +63,28 @@ class Navbar extends Component {
                                     <ul className="navbar-nav">
  
                                         <li className="nav-item">
-                                            <Link href="/plataforma">
-                                                <a className="nav-link">
-                                                    Plataforma
-                                                </a>
-                                            </Link>
-                                        </li>
- 
-                                        <li className="nav-item">
                                             <Link href="/oncase-labs">
                                                 <a className="nav-link">
                                                     Cocriação
                                                 </a>
                                             </Link>
                                         </li>
-
                                         <li className="nav-item">
+                                            <Link href="/scora-journey">
+                                                <a className="nav-link">
+                                                    Jornada do Cliente
+                                                </a>
+                                            </Link>
+                                        </li>
+                                        <li className="nav-item">
+                                            <Link href="/about-us">
+                                                <a className="nav-link">
+                                                    Sobre Nós
+                                                </a>
+                                            </Link>
+                                        </li>
+
+                                        {/* <li className="nav-item">
                                             <Link href="#">
                                                 <a className="nav-link">
                                                     Produtos <i className="fas fa-chevron-down"></i>
@@ -102,7 +108,7 @@ class Navbar extends Component {
                                                     </Link>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                     </ul>
 
                                     <div className="others-options">

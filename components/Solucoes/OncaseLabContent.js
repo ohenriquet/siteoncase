@@ -19,7 +19,7 @@ class ServiceDetailsContent extends Component {
 
                             <div className="col-lg-6 col-md-12">
                                 <div className="services-details-image">
-                                    <img src={require("../../images/service-details/labs1.png")} alt="Oncase Labs" />
+                                    <img src={require("../../images/service-details/labs1.png")} alt="Cocriação" />
                                 </div>
                             </div>
                         </div>
@@ -27,8 +27,8 @@ class ServiceDetailsContent extends Component {
 
                     <div className="col lg-6">
                         <div className="row align-items-center">
-                        <h4>Como funciona o Oncase Labs?</h4>
-                        <p>O Oncase labs é divido em 4 etapas, que pode durar de 6 meses à 12 meses, de acordo com o nível de maturidade e necessidade da sua empresa.</p>
+                        <h4>Como funciona a cocriação?</h4>
+                        <p>Trabalhamos com a metodologia proprietária ACHA, que é divida em 4 etapas, que pode durar de 6 meses à 12 meses, de acordo com o nível de maturidade e necessidade da sua empresa.</p>
                         </div>
                     </div>
                     <br></br>

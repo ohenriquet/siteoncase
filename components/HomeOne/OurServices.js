@@ -16,7 +16,7 @@ class OurServices extends Component {
                     </div>
 
                     <div className="row py-5">
-                        <div className="col-12 col-md-3 mb-4 mb-md-0">
+                        {/* <div className="col-12 col-md-3 mb-4 mb-md-0">
                             <div className="mb-2">
                                     <i className="flaticon-big-data"  style={{fontSize:"32px"}}></i>
                             </div>
@@ -30,8 +30,8 @@ class OurServices extends Component {
                                     </a>
                                 </Link>
                             </div>
-                        </div>
-                        <div className="col-12 col-md-3 mb-4 mb-md-0">
+                        </div> */}
+                        <div className="col-12 col-md-6 mb-6 mb-md-0">
                             <div className="mb-2">
                                     <i className="flaticon-data-analytics"  style={{fontSize:"32px"}}></i>
                             </div>
@@ -46,13 +46,13 @@ class OurServices extends Component {
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-12 col-md-3 mb-4 mb-md-0">
+                        <div className="col-12 col-md-6 mb-6 mb-md-0">
                             <div className="mb-2">
                                     <i className="flaticon-chart"  style={{fontSize:"32px"}}></i>
                             </div>
                             <h4>Jornada do Cliente</h4>
                             <div className="small">
-                                <p>Enriqueça a jornada dos seus clientes e receba insights para oferecer outros produtos do seu catálogo.</p>
+                                <p>Aprimore a jornada dos seus clientes e receba insights para aumentar o ticket médio, a satisfação do cliente e diminuir o churn.</p>
                                 <Link href="/inteligencia-artificial">
                                     <a className="weight-500 action-link">
                                         <span>Saiba mais
@@ -61,7 +61,7 @@ class OurServices extends Component {
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-12 col-md-3 mb-4 mb-md-0">
+                        {/* <div className="col-12 col-md-3 mb-4 mb-md-0">
                             <div className="mb-2">
                                     <i className="flaticon-science"  style={{fontSize:"32px"}}></i>
                             </div>
@@ -75,8 +75,8 @@ class OurServices extends Component {
                                     </a>
                                 </Link>
                             </div>
-                        </div>
-                        <div className="col-12 col-md-3 mb-4 mb-md-0">
+                        </div> */}
+                        {/* <div className="col-12 col-md-3 mb-4 mb-md-0">
                             <div className="mb-2">
                                     <i className="flaticon-science"  style={{fontSize:"32px"}}></i>
                             </div>
@@ -90,7 +90,7 @@ class OurServices extends Component {
                                     </a>
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

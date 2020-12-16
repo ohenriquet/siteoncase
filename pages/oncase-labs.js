@@ -10,7 +10,7 @@ class ServiceDetails extends Component {
             <React.Fragment>
                 <Navbar />
                 <PageBannerLab
-                    pageTitle="Oncase Labs" 
+                    pageTitle="Cocriação" 
                     breadcrumbTextOne="Home" 
                     breadcrumbTextTwo="Service Details" 
                     breadcrumbUrl="/" 
