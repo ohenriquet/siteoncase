@@ -31,6 +31,7 @@ class MyDocument extends Document {
                 </body>
                 <script type="text/javascript" src="/static/rdstation.js"></script>
                 <script type="text/javascript" src="/static/newsletter.js"></script>
+                <script type="text/javascript" src="/static/neurologic.js"></script>
 
             </Html>
         )
