@@ -1186,7 +1186,9 @@ Main Banner Two Area CSS
   position: relative;
   z-index: 1;
   height: 800px;
-  background: #13182d;
+  background-image: url(../../images/home/video-home-pequeno.gif);
+  background-size: cover;
+  /* background: #13182d; */
   /* background: #232442; */
 }
 
@@ -3368,7 +3370,7 @@ Page Title Area CSS
 }
 
 .page-title-arealab {
-  background-image: url(../../images/page-title-bg-5.jpg);
+  background-image: url(../../images/cocriacao/banner-cocriacao.png);
 }
 
 .page-title-areacloudera {
@@ -3376,7 +3378,7 @@ Page Title Area CSS
 }
 
 
-.page-title-area::before,.page-title-areabd::before,.page-title-areabia::before,.page-title-areaia::before,.page-title-arealab::before,.page-title-areacloudera::before  {
+.page-title-area::before,.page-title-areabd::before,.page-title-areabia::before,.page-title-areaia::before,.page-title-areacloudera::before  {
   content: "";
   position: absolute;
   height: 100%;

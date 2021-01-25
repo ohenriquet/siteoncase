@@ -9,7 +9,7 @@ class ServiceDetailsContent extends Component {
                     <div className="services-details-overview">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12">
-                                <div className="services-details-desc">
+                                <div className="services-details-desc" style={{paddingRight:'80px'}}>
                                     <h3>Ajudamos a transformar seus dados em oportunidades de negócio!</h3>
                                     <p>Somos especializados em soluções de Co-criação e Desenvolvimento de Produtos Analíticos, Sistemas de Predição ou Prescrição sob medida.</p>
 
@@ -19,7 +19,7 @@ class ServiceDetailsContent extends Component {
 
                             <div className="col-lg-6 col-md-12">
                                 <div className="services-details-image">
-                                    <img src={require("../../images/service-details/labs1.png")} alt="Cocriação" />
+                                    <img src={require("../../images/cocriacao/cocriacao-infografico.png")} alt="Cocriação" />
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ class ServiceDetailsContent extends Component {
                         <h4>1. Assessment</h4>
                     </div>
                     <div className="row align-items-center">
-                        <div className="col md-8">
+                        <div className="col md-8" style={{paddingRight:'120px'}}>
                         <p><strong>Como Funciona:</strong><br></br>
                             Definimos as oportunidade de negócio por meio de entrevistas, dinâmicas e análises in loco para construir, a quatro mãos, um protótipo de produto analítico para atender os desafios desde o ínicio do projeto.
                         </p>
@@ -51,18 +51,18 @@ class ServiceDetailsContent extends Component {
                         <li>Roadmap de evolução</li>
                         </ul>
                         </div>
-                        <div className="col md-4">
-                            <img src={require("../../images/service-details/labs2.png")} alt="Oncase Labs" style={{width:"auto", height:"400px", marginleft:"0em", marginright:"0em"}}/>
+                        <div className="col md-4" style={{textAlign:'center'}}>
+                            <img src={require("../../images/cocriacao/cocriacao-ilustracao1.png")} alt="Oncase Labs" style={{width:"auto", maxHeight:"400px", marginLeft:"0em", marginRight:"0em"}}/>
                         </div>
                     </div>
                     <div className="row align-items-center">
-                        <div className="col md-4">
-                            <img src={require("../../images/service-details/labs3.png")} alt="Oncase Labs" style={{width:"auto", height:"400px", marginleft:"0em", marginright:"0em"}}/>
+                        <div className="col md-4" style={{textAlign:'center'}}>
+                            <img src={require("../../images/cocriacao/cocriacao-ilustracao2.png")} alt="Oncase Labs" style={{width:"auto", maxHeight:"400px", marginLeft:"0em", marginRight:"0em"}}/>
                         </div>
-                        <div className="col md-8">
+                        <div className="col md-8" style={{paddingLeft:'120px'}}>
                             <h5>2. Carry Out</h5>
                             <p><strong>Como Funciona:</strong><br></br>
-                                Etapa de desenvolvimento de funcionalidades do produto analítico através de um processo gradual de evolução, enriquecimento e transformação dos dados, o cliente participa de<br></br>
+                                Etapa de desenvolvimento de funcionalidades do produto analítico através de um processo gradual de evolução, enriquecimento e transformação dos dados, o cliente participa de
                                 maneria colaborativa nas validações das hipóteses de negócio.
                             </p>
                             <p><strong>Duração da Fase:</strong><br></br>
@@ -80,7 +80,7 @@ class ServiceDetailsContent extends Component {
                         </div>
                     </div>
                     <div className="row align-items-center">
-                        <div className="col md-8">
+                        <div className="col md-8" style={{paddingRight:'120px'}}>
                             <h5>3. Hand-over</h5>
                             <p><strong>Como Funciona:</strong><br></br>
                                 Transferência de conhecimento de todo o trabalho desenvolvido em conjunto. Disseminação da cultura data-driven com capacitação para utilização e operacionalização dos produtos criados e mentoria para exploração de novas oportunidades com dados.
@@ -94,16 +94,16 @@ class ServiceDetailsContent extends Component {
                                 <li>Mentoria especializada</li>
                             </ul>
                         </div>
-                        <div className="col md-4">
-                            <img src={require("../../images/service-details/labs4.png")} alt="Oncase Labs" style={{width:"auto", height:"400px", marginleft:"0em", marginright:"0em"}}/>
+                        <div className="col md-4" style={{textAlign:'center'}}>
+                            <img src={require("../../images/cocriacao/cocriacao-ilustracao3.png")} alt="Oncase Labs" style={{width:"auto", maxHeight:"400px", marginleft:"0em", marginright:"0em"}}/>
                         </div>
                     </div>
 
                     <div className="row align-items-center">
-                        <div className="col md-4">
-                            <img src={require("../../images/service-details/labs5.png")} alt="Oncase Labs" style={{width:"auto", height:"400px", marginleft:"0em", marginright:"0em"}}/>
+                        <div className="col md-4" style={{textAlign:'center'}}>
+                            <img src={require("../../images/cocriacao/cocriacao-ilustracao4.png")} alt="Oncase Labs" style={{width:"auto", maxHeight:"400px", marginleft:"0em", marginright:"0em"}}/>
                         </div>
-                        <div className="col md-8">
+                        <div className="col md-8" style={{paddingLeft:'120px'}}>
                             <h5>4. Assist</h5>
                             <p><strong>Como Funciona:</strong><br></br>
                                 Construção de métricas para acompanhamento dos  produtos e práticas implementadas, estabelecimento de co-governança da cultura data-driven junto ao cliente e apoio contínuo.
@@ -124,7 +124,7 @@ class ServiceDetailsContent extends Component {
                         <div className="row align-items-center">
                             <div className="col-md-4">
                                 <div className="services-details-image">
-                                    <img src={require("../../images/service-details/labs6.jpg")} alt="Oncase Labs" style={{width:"auto", height:"200px", marginLeft:"0em", marginRight:"0em",borderRadius:"10px",marginBottom:"20px"}}/>
+                                    <img src={require("../../images/cocriacao/cocriacao-aplicacao3.png")} alt="Oncase Labs" style={{width:"auto", height:"200px", marginLeft:"0em", marginRight:"0em",borderRadius:"10px",marginBottom:"20px"}}/>
                                 </div>
                                 <h5>Vendas e Marketing</h5>
                                 <ul>
@@ -136,7 +136,7 @@ class ServiceDetailsContent extends Component {
                             </div>
                             <div className="col-md-4">
                                 <div className="services-details-image">
-                                    <img src={require("../../images/service-details/labs7.jpg")} alt="Oncase Labs" style={{width:"auto", height:"200px", marginLeft:"0em", marginRight:"0em",borderRadius:"10px",marginBottom:"20px"}}/>
+                                    <img src={require("../../images/cocriacao/cocriacao-aplicacao2.png")} alt="Oncase Labs" style={{width:"auto", height:"200px", marginLeft:"0em", marginRight:"0em",borderRadius:"10px",marginBottom:"20px"}}/>
                                 </div>
                                 <h5>Operações</h5>
                                 <ul>
@@ -148,7 +148,7 @@ class ServiceDetailsContent extends Component {
                             </div>
                             <div className="col-md-4">
                                 <div className="services-details-image">
-                                    <img src={require("../../images/service-details/labs8.jpg")} alt="Oncase Labs" style={{width:"auto", height:"200px", marginLeft:"0em", marginRight:"0em",borderRadius:"10px",marginBottom:"20px"}}/>
+                                    <img src={require("../../images/cocriacao/cocriacao-aplicacao1.png")} alt="Oncase Labs" style={{width:"auto", height:"200px", marginLeft:"0em", marginRight:"0em",borderRadius:"10px",marginBottom:"20px"}}/>
                                 </div>
                                 <h5>Financeiro</h5>
                                 <ul>

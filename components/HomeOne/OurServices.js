@@ -9,36 +9,42 @@ class OurServices extends Component {
                     <div className="py-5">
                         <div className="row justify-content-center text-center py-3">
                             <div className="col-12 col-md-8">
-                            <h1 className="display-4">Oferecemos soluções inteligentes para problemas de dados</h1>
-                            <p className="lead mb-4">Reunimos competências que combinam estratégias de Negócios e Tecnologia avançadas de Big Data, Business Intelligence, Analytics e Inteligência artificial para resolver problemas reais do mercado.</p>
+                            <h1 className="display-4" style={{fontWeight:500}}>Oferecemos soluções inteligentes para problemas de dados</h1>
+                            {/* <p className="lead mb-4">Reunimos competências que combinam estratégias de Negócios e Tecnologia avançadas de Big Data, Business Intelligence, Analytics e Inteligência artificial para resolver problemas reais do mercado.</p> */}
                             </div>
                         </div>
                     </div>
 
-                    <div className="row py-5">
-                        {/* <div className="col-12 col-md-3 mb-4 mb-md-0">
+                    <div className="row">
+                        <div className="col-3">
                             <div className="mb-2">
-                                    <i className="flaticon-big-data"  style={{fontSize:"32px"}}></i>
+                                    <Link href="/oncase-labs">
+                                        <img src={require("../../images/home/cocriacao.png")} alt="Oncase Cocriação"/>
+                                    </Link>
                             </div>
-                            <h4>Plataforma</h4>
+                        </div>
+                        <div className="col-6" style={{verticalAlign:"center",paddingTop:"60px"}}>
+                            <div style={{verticalAlign:"center"}}>
+                                <h4 style={{color:"#8104D6",fontWeight:"bold",fontSize:"1.6rem"}}>Cocriação</h4>
+                                <div className="small">
+                                    <p style={{fontWeight:"600",fontSize:"17px"}}>Somos especializados em soluções de Cocriação e Desenvolvimento de Produtos Analíticos, feitos sob medida para atender as necessidades do seu time.</p>
+                                    <Link href="/oncase-labs">
+                                        <a className="weight-500 action-link">
+                                            <span>Saiba mais
+                                            <i className="flaticon-right"></i></span>
+                                        </a>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-3"></div>
+                        <div className="col-6" style={{verticalAlign:"center",paddingTop:"60px",textAlign:"right"}}>
+                            <h4 style={{color:"#8104D6",fontWeight:"bold",fontSize:"1.6rem"}}>Jornada do Cliente</h4>
                             <div className="small">
-                                <p>Utilize nossa consultoria para otimizar ou construir sua plataforma de dados em cloud ou local, da captação e extração de dados ao data warehouse.</p>
-                                <Link href="/big-data">
-                                    <a className="weight-500 action-link">
-                                        <span>Saiba mais
-                                        <i className="flaticon-right"></i></span>
-                                    </a>
-                                </Link>
-                            </div>
-                        </div> */}
-                        <div className="col-12 col-md-6 mb-6 mb-md-0">
-                            <div className="mb-2">
-                                    <i className="flaticon-data-analytics"  style={{fontSize:"32px"}}></i>
-                            </div>
-                            <h4>Cocriação</h4>
-                            <div className="small">
-                                <p>Somos especializados em soluções de Cocriação e Desenvolvimento de Produtos Analíticos, feitos sob medida para atender as necessidades do seu time.</p>
-                                <Link href="/business-intelligence-analytics">
+                                <p style={{fontWeight:"600",fontSize:"17px"}}>Aprimore a jornada dos seus clientes e receba insights para aumentar o ticket médio, a satisfação do cliente e diminuir o churn.</p>
+                                <Link href="/scora-journey">
                                     <a className="weight-500 action-link">
                                         <span>Saiba mais
                                         <i className="flaticon-right"></i></span>
@@ -46,19 +52,11 @@ class OurServices extends Component {
                                 </Link>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 mb-6 mb-md-0">
+                        <div className="col-3">
                             <div className="mb-2">
-                                    <i className="flaticon-chart"  style={{fontSize:"32px"}}></i>
-                            </div>
-                            <h4>Jornada do Cliente</h4>
-                            <div className="small">
-                                <p>Aprimore a jornada dos seus clientes e receba insights para aumentar o ticket médio, a satisfação do cliente e diminuir o churn.</p>
-                                <Link href="/inteligencia-artificial">
-                                    <a className="weight-500 action-link">
-                                        <span>Saiba mais
-                                        <i className="flaticon-right"></i></span>
-                                    </a>
-                                </Link>
+                            <Link href="/scora-journey">
+                                <img src={require("../../images/home/jornada.png")} alt="Scora Journey" />
+                            </Link>
                             </div>
                         </div>
                         {/* <div className="col-12 col-md-3 mb-4 mb-md-0">

@@ -12,7 +12,7 @@ class MainBanner extends Component {
                             <div className="row justify-content-between align-items-center py-5">
                                 <div className="col-12 col-md-5 order-2 order-md-1">
                                     <div className="main-banner-content">
-                                        <h1 className="display-4">Levamos inteligência aos seus dados</h1>
+                                        <h1 className="display-4" style={{fontWeight:"500"}}>Levamos inteligência aos seus dados</h1>
                                         <div className="row align-items-center">
                                         <div className="col-12 col-md-5 mb-2 mb-md-0">
                                             <Link href="/about-us">
@@ -25,9 +25,12 @@ class MainBanner extends Component {
 
                                 <div className="col-12 col-md-6 order-1 order-md-2 pl-md-0 mb-4 mb-md-0">
                                         {/* Main image */}
-                                        <ReactWOW animation='zoomIn' delay='1s'>
+                                        {/* <ReactWOW animation='zoomIn' delay='1s'>
+                                            <img className="w-100" src={require("../../images/home/video-home.gif")} alt="image" />
+                                        </ReactWOW> */}
+                                        {/* <ReactWOW animation='zoomIn' delay='1s'>
                                             <img className="w-100" src={require("../../images/home-two/image.png")} alt="image" />
-                                        </ReactWOW>
+                                        </ReactWOW> */}
 
                                 </div>
 
