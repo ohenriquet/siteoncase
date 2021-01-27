@@ -126,23 +126,23 @@ p:last-child {
 }
 
 .default-btn {
-  border: none;
+  border: 2px solid #53c8da;
   position: relative;
   display: inline-block;
   text-align: center;
   overflow: hidden;
   z-index: 1;
   color: #ffffff;
-  background-color: #00b0ee;
+  /* background-color: #53c8da; */
   -webkit-transition: 0.6s;
   transition: 0.6s;
-  border-radius: 10px;
+  border-radius: 50px;
   font-weight: 600;
   font-size: 15px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .default-btn span {
@@ -151,7 +151,8 @@ p:last-child {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #3e57d0;
+  background-color: #6c757d;
+  opacity: 0.2;
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -197,7 +198,7 @@ p:last-child {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #3e57d0;
+  background-color: #53c8da;
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -3347,10 +3348,10 @@ Partner Area CSS
 /*================================================
 Page Title Area CSS
 =================================================*/
-.page-title-area,.page-title-areabd,.page-title-areabi,.page-title-areaia,.page-title-arealab,.page-title-areacloudera  {
+.page-title-area,.page-title-areabd,.page-title-areabi,.page-title-areaia,.page-title-arealab,.page-title-areacloudera,.page-title-area-sobre  {
   position: relative;
   z-index: 1;
-  background-image: url(../../images/page-title-bg.jpg);
+  background-image: url(../../images/jornada/destaque_jornada.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3377,8 +3378,12 @@ Page Title Area CSS
   background-image: url(../../images/page-title-bg-6.jpg);
 }
 
+.page-title-area-sobre {
+  background-image: url(../../images/page-title-bg.jpg);
+}
 
-.page-title-area::before,.page-title-areabd::before,.page-title-areabia::before,.page-title-areaia::before,.page-title-areacloudera::before  {
+
+.page-title-area::before,.page-title-areabd::before,.page-title-areabia::before,.page-title-areaia::before,.page-title-areacloudera::before,.page-title-area-sobre::before  {
   content: "";
   position: absolute;
   height: 100%;
@@ -3386,7 +3391,19 @@ Page Title Area CSS
   background-color: #000000;
   left: 0;
   top: 0;
-  opacity: 0.7;
+  opacity: 0;
+  z-index: -1;
+}
+
+.page-title-area-sobre::before  {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
   z-index: -1;
 }
 
@@ -4765,6 +4782,13 @@ blockquote::after, .blockquote::after {
 /*================================================
 Footer Section CSS
 =================================================*/
+.footer-topo {
+  background-image: url(../../images/home/footer.png);
+  background-repeat: no-repeat;
+  width: auto;
+  max-height: 965px;
+}
+
 .footer-section {
   background-position: center center;
   background-size: cover;
@@ -4775,6 +4799,19 @@ Footer Section CSS
 }
 
 .footer-section::before {
+  background-image: url(../../images/home/footer.png);
+  background-repeat: no-repeat;
+  width: auto;
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #040e23;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+/* .footer-section::before {
   position: absolute;
   content: "";
   height: 100%;
@@ -4783,7 +4820,7 @@ Footer Section CSS
   left: 0;
   right: 0;
   top: 0;
-}
+} */
 
 .footer-heading {
   margin-bottom: 25px;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
-import PageBanner from '../components/Common/PageBanner';
+import PageBannerSobre from '../components/Common/PageBannerSobre';
 import UmaEmpresa from '../components/AboutUs/UmaEmpresa';
 import ParceirosOficiais from '../components/AboutUs/ParceirosOficiais';
 import AboutUsContent from '../components/AboutUs/AboutUsContent';
@@ -15,7 +15,7 @@ class AboutUs extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <PageBanner
+                <PageBannerSobre
                     pageTitle="Sobre Nós" 
                     breadcrumbTextOne="" 
                     breadcrumbTextTwo="" 

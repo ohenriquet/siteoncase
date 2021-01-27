@@ -9,8 +9,9 @@ class Footer extends Component {
         return (
             <React.Fragment>
                 {/* Top Footer Section */}
+                    <div className="footer-topo"></div>
                 <footer className="footer-section ptb-100" style={{paddingBottom:"50px",paddingTop:"65px"}}>
-                    <div className="container">
+                    <div className="container" style={{backgroundImage:"url(../../images/home/Footer.png)"}}>
                        <div className="row pt-4 mb-4 mb-lg-5">
                             <div className="col-12 col-lg-6 mb-4 mb-lg-0">
                                 <img className="mb-3" src={require("../../images/logo-white.png")} width="175" />

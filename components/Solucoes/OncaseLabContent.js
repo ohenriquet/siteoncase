@@ -4,7 +4,7 @@ import Link from '../../utils/ActiveLink';
 class ServiceDetailsContent extends Component {
     render() {
         return (
-            <section className="services-details-area ptb-100">
+            <section className="services-details-area ptb-100"  style={{paddingBottom:"0px"}}>
                 <div className="container">
                     <div className="services-details-overview">
                         <div className="row align-items-center">
@@ -121,7 +121,7 @@ class ServiceDetailsContent extends Component {
                         <div className="row align-items-center" style={{paddingTop:"20px",paddingBottom:"20px"}}>
                             <h4>Aplicações do Oncase Lab para co-criação de Produtos Analíticos</h4>
                         </div>
-                        <div className="row align-items-center">
+                        <div className="row align-items-center" style={{paddingBottom:"50px"}}>
                             <div className="col-md-4">
                                 <div className="services-details-image">
                                     <img src={require("../../images/cocriacao/cocriacao-aplicacao3.png")} alt="Oncase Labs" style={{width:"auto", height:"200px", marginLeft:"0em", marginRight:"0em",borderRadius:"10px",marginBottom:"20px"}}/>
@@ -160,6 +160,19 @@ class ServiceDetailsContent extends Component {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className="footer-section ptb-100">
+                    <div className="row align-items-center" style={{paddingLeft:"75px"}}>
+                        <div className="col-6">
+                            <h2 style={{color:"#FAFAFA", fontSize:"2.5rem"}}>Quer entender como podemos ajudar a sua empresa?</h2>
+                        </div>
+                        <div className="col-6 align-items-center">
+                            <a href="/contact/" class="default-btn" style={{backgroundColor:"#53c8da",color:"#393953",paddingLeft:"20px",paddingRight:"20px",paddingTop:"10px",paddingBottom:"10px"}}>FALE COM NOSSOS REPRESENTANTES<span></span></a>
+                        </div>
+                        
+                    </div>
+
                 </div>
             </section>
         );

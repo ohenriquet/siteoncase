@@ -113,9 +113,9 @@ class Navbar extends Component {
 
                                     <div className="others-options">
                                         {/* <Link href="/contact" activeClassName="active"> */}
-                                            <a href="/contact" className="default-btn">
-                                                Solicite uma proposta 
-                                                <span></span>
+                                            <a href="/contact/" className="default-btn" style={{color:"#53c8da"}}>
+                                                SOLICITE UMA PROPOSTA
+                                                <span style={{backgroundColor:"#6c757d",opacity:"0.2"}}></span>
                                             </a>
                                         {/* </Link> */}
                                     </div>
