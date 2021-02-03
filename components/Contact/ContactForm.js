@@ -9,7 +9,7 @@ class ContactForm extends Component {
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
                             <div className="contact-image">
-                                <img src={require("../../images/contact.png")} alt="image" />
+                                <img src={require("../../images/FILIPE VENDEDOR.png")} alt="Consultor de Vendas Oncase" />
                             </div>
                         </div>
                         <div className="col-lg-6">

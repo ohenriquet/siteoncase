@@ -11,13 +11,13 @@ import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
 
 export default class MyApp extends App {
-    static async getInitialProps ({ Component, ctx }) {
-        return {
-            pageProps: Component.getInitialProps
-            ? await Component.getInitialProps(ctx)
-            : {}
-        }
-    }
+    // static async getInitialProps ({ Component, ctx }) {
+    //     return {
+    //         pageProps: Component.getInitialProps
+    //         ? await Component.getInitialProps(ctx)
+    //         : {}
+    //     }
+    // }
 
     // Preloader
     state = {
