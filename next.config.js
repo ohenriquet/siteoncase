@@ -28,6 +28,8 @@ module.exports = withPlugins([
             quality: 75,
         },
         exportTrailingSlash: true,
+        trailingSlash: true,
+
         exportPathMap: function () {
             return {
                 '/': { page: '/' },
@@ -42,6 +44,7 @@ module.exports = withPlugins([
                 '/pentaho': { page: '/pentaho' }
             };
         }
+
     }],
     [withCSS], [withFonts], [withSass]
 ]);
