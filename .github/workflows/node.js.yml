@@ -30,6 +30,6 @@ jobs:
           SSH_PRIVATE_KEY: ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAhz8MYaW5zKAS41dKv+G3ZZ83vhEdYheaSkgNpq4a7CHArElt8H3e44iC4mq4gJIao4NrIN5p9QbR9yyyaUsqPUTGYLWFKZ/nKXBylAhltQl+JcVfrgLFmtB0SruNhKNoimJgScVM0D0N7hST0DxVtNPmcCdnwzAgOdcV8hPLL8JriT1TK4ZJkAfp21opBPx+Z6LcMgXZTsTu8W0Qu05fVAJx0Rvl1cPER8l3bEIGeyYnTZitXIETDNDD8Vc9nG2TtvgcwZlsYLm4lIIkYyjECiMaTDVhnlzvfE3qBtI7E2q/WR2xaG6TXqvCJlEDFOG5mtgSL0KUsWM4PiyuyvURUQ== rsa-key-20210209
           ARGS: "-rltgoDzvO --delete"
           SOURCE: "dist/out/"
-          REMOTE_HOST: ${{ ftp.oncase.com.br }}
-          REMOTE_USER: ${{ oncasec }}
-          TARGET: ${{ /home/oncasec/oncase.com.br/public2 }}
+          REMOTE_HOST: ftp.oncase.com.br
+          REMOTE_USER: oncasec
+          TARGET: /home/oncasec/oncase.com.br/public2
