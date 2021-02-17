@@ -7,7 +7,7 @@ class PageBannerLab extends Component {
         let { pageTitle, breadcrumbTextOne, breadcrumbTextTwo, breadcrumbUrl } = this.props;
 
         return (
-            <div className="page-title-arealab">
+            <div className="page-title-area-pentaho">
                 <div className="d-table">
                     <div className="d-table-cell">
                         <div className="container">

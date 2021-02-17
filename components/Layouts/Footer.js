@@ -24,6 +24,7 @@ class Footer extends Component {
                                     <a className="transparent-link mr-2" href="//www.instagram.com/oncasetecnologia/"><i className="fab fa-instagram" style={{color:"#d9d3d3"}}></i></a>
                                     <a className="transparent-link mr-2" href="//www.linkedin.com/company/oncase/"><i className="fab fa-linkedin" style={{color:"#d9d3d3"}}></i></a>
                                     <a className="transparent-link mr-2" href="//twitter.com/oncase"><i className="fab fa-twitter" style={{color:"#d9d3d3"}}></i></a>
+                                    <Link href="https://blog.oncase.com.br"><a className="text-light">Blog</a></Link>
                                 </div>
                                 <div className="border-top mt-3 d-lg-none"></div>
                             </div>
@@ -31,8 +32,8 @@ class Footer extends Component {
                             <div className="col-6 col-lg-3">
                                 <h4 style={{color:"#f8f9fa"}}>Soluções</h4>
                                 {/* <div className="mb-1"><a className="text-light" href="/plataforma"><span>Plataforma</span></a></div> */}
-                                <div className="mb-1"><a className="text-light"><Link href="/oncase-labs"><span>Cocriação</span></Link></a></div>
-                                <div className="mb-1"><a className="text-light"><Link href="/scora-journey"><span>Jornada do Cliente</span></Link></a></div>
+                                <div className="mb-1"><Link href="/oncase-labs"><a className="text-light"><span>Cocriação</span></a></Link></div>
+                                <div className="mb-1"><Link href="/scora-journey"><a className="text-light"><span>Jornada do Cliente</span></a></Link></div>
 
                                 {/* <div className="mb-1"><a className="text-light" href="/oncase-labs"><span>Cocriação</span></a></div>
                                 <div className="mb-1"><a className="text-light" href="/scora-journey"><span>Jornada do Cliente</span></a></div> */}
@@ -48,9 +49,9 @@ class Footer extends Component {
                             </div> */}
                             <div className="col-6 col-lg-3">
                                 <h4 style={{color:"#f8f9fa"}}>Tecnologias</h4>
-                                <div className="mb-1"><a className="text-light"><Link href="/cloudera"><span>Cloudera</span></Link></a></div>
-                                <div className="mb-1"><a className="text-light"><Link href="/mongodb"><span>MongoDB</span></Link></a></div>
-                                <div className="mb-1"><a className="text-light"><Link href="/pentaho"><span>Pentaho</span></Link></a></div>
+                                <div className="mb-1"><Link href="/cloudera"><a className="text-light"><span>Cloudera</span></a></Link></div>
+                                <div className="mb-1"><Link href="/mongodb"><a className="text-light"><span>MongoDB</span></a></Link></div>
+                                <div className="mb-1"><Link href="/pentaho"><a className="text-light"><span>Pentaho</span></a></Link></div>
                                 {/* <div className="mb-1"><a className="text-light" href="/cloudera"><span>Cloudera</span></a></div>
                                 <div className="mb-1"><a className="text-light" href="/mongodb"><span>MongoDB</span></a></div>
                                 <div className="mb-1"><a className="text-light" href="/Pentaho"><span>Pentaho</span></a></div> */}

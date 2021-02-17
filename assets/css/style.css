@@ -3348,7 +3348,7 @@ Partner Area CSS
 /*================================================
 Page Title Area CSS
 =================================================*/
-.page-title-area,.page-title-areabd,.page-title-areabi,.page-title-areaia,.page-title-arealab,.page-title-areacloudera,.page-title-area-sobre  {
+.page-title-area,.page-title-areabd,.page-title-areabi,.page-title-areaia,.page-title-arealab,.page-title-areacloudera,.page-title-area-sobre,.page-title-area-pentaho,.page-title-area-mongodb  {
   position: relative;
   z-index: 1;
   background-image: url(../../images/jornada/destaque_jornada.png);
@@ -3382,8 +3382,16 @@ Page Title Area CSS
   background-image: url(../../images/page-title-bg.jpg);
 }
 
+.page-title-area-pentaho {
+  background-image: url(../../images/page-title-bg-pentaho.png);
+}
 
-.page-title-area::before,.page-title-areabd::before,.page-title-areabia::before,.page-title-areaia::before,.page-title-areacloudera::before,.page-title-area-sobre::before  {
+.page-title-area-mongodb {
+  background-image: url(../../images/page-title-bg-mongodb.png);
+}
+
+
+.page-title-area::before,.page-title-areabd::before,.page-title-areabia::before,.page-title-areaia::before,.page-title-areacloudera::before,.page-title-area-sobre::before,.page-title-area-pentaho::before,.page-title-area-mongodb::before  {
   content: "";
   position: absolute;
   height: 100%;

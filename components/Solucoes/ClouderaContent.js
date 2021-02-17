@@ -4,54 +4,55 @@ import Link from '../../utils/ActiveLink';
 class ServiceDetailsContent extends Component {
     render() {
         return (
-            <section className="services-details-area ptb-100">
-                <div className="container">
+            <section className="services-details-area ptb-100" style={{paddingBottom:"0px"}}>
+            <div className="container" style={{paddingBottom:"50px"}}>
                     <div className="services-details-overview">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12">
+                                <div className="services-details-image">
+                                    <img src={require("../../images/service-details/cloudera1.png")} alt="Cloudera" />
+                                </div>
+                            </div>
+
+                            <div className="col-lg-6 col-md-12" style={{paddingLeft:"45px",paddingRight:"45px"}}>
                                 <div className="services-details-desc">
                                     <h3>Aceleramos a inovação com Big Data</h3>
                                     <p>A Cloudera está revolucionando o gerenciamento de dados corporativos, oferecendo a primeira plataforma unificada para Big Data e Machine Learning, através do Enterprise Data Hub construído sobre o Apache Hadoop.</p>
 
                                     <p>Sua tecnologia oferece as empresas um local para armazenar, acessar, processar, proteger e analisar todos os seus dados, capacitando-os a ampliar o valor dos investimentos existentes enquanto possibilita novas maneiras fundamentais de obter valor de seus dados.</p>
 
-                                    <p>Como <strong>Parceiros Oficiais da Cloudera</strong>, temos todo o know-how necessário para ajudar empresas a transformarem o seu negócio, adotando a tecnologia líder de mercado em gestão de dados.</p>
+                                    <p>Como <strong>parceiros oficiais da Cloudera</strong>, temos todo o know-how necessário para ajudar empresas a transformarem o seu negócio, adotando a tecnologia líder de mercado em gestão de dados.</p>
                                 </div>
                             </div>
 
-                            <div className="col-lg-6 col-md-12">
-                                <div className="services-details-image">
-                                    <img src={require("../../images/service-details/cloudera1.png")} alt="Cloudera" />
-                                </div>
-                            </div>
                         </div>
                         <div className="row" style={{paddingBottom:"2em"}}>
-                            <div className="col-6" style={{display:"flex !important"}}>
-                                <img src={require("../../images/service-details/cloudera2.png")} alt="Cloudera" style={{width:"50px", height:"50px", marginRight:"2em"}}/>
+                            <div className="col-6" style={{textAlign:"center"}}>
+                                <img src={require("../../images/service-details/cloudera2.png")} alt="Cloudera" style={{width:"100px", height:"100px", marginBottom:"2em"}}/>
                                 <h6>Experiência de Dados Compartilhada (SDX)</h6>
                             </div>
-                            <div className="col-6" style={{display:"flex !important"}}>
-                                <img src={require("../../images/service-details/cloudera3.png")} alt="Cloudera" style={{width:"50px", height:"50px", marginRight:"2em"}}/>
+                            <div className="col-6" style={{textAlign:"center"}}>
+                                <img src={require("../../images/service-details/cloudera3.png")} alt="Cloudera" style={{width:"100px", height:"100px", marginBottom:"2em"}}/>
                                 <h6>Desenvolvimento de Apps de Big Data</h6>
                             </div>
                         </div>
                         <div className="row" style={{paddingBottom:"2em"}}>
-                            <div className="col-6" style={{display:"flex !important"}}>
-                                <img src={require("../../images/service-details/cloudera4.png")} alt="Cloudera" style={{width:"50px", height:"50px", marginRight:"2em"}}/>
+                            <div className="col-6" style={{textAlign:"center"}}>
+                                <img src={require("../../images/service-details/cloudera4.png")} alt="Cloudera" style={{width:"100px", height:"100px", marginBottom:"2em"}}/>
                                 <h6>Integração com Infraestrutura Existente</h6>
                             </div>
-                            <div className="col-6" style={{display:"flex !important"}}>
-                                <img src={require("../../images/service-details/cloudera5.png")} alt="Cloudera" style={{width:"50px", height:"50px", marginRight:"2em"}}/>
+                            <div className="col-6" style={{textAlign:"center"}}>
+                                <img src={require("../../images/service-details/cloudera5.png")} alt="Cloudera" style={{width:"100px", height:"100px", marginBottom:"2em"}}/>
                                 <h6>Gestão e Upgrades de Clusters</h6>
                             </div>
                         </div>
                         <div className="row" style={{paddingBottom:"2em"}}>
-                            <div className="col-6" style={{display:"flex !important"}}>
-                                <img src={require("../../images/service-details/cloudera6.png")} alt="Cloudera" style={{width:"50px", height:"50px", marginRight:"2em"}}/>
+                            <div className="col-6" style={{textAlign:"center"}}>
+                                <img src={require("../../images/service-details/cloudera6.png")} alt="Cloudera" style={{width:"100px", height:"100px", marginBottom:"2em"}}/>
                                 <h6>Automatização de Servidores & Bases de Dados</h6>
                             </div>
-                            <div className="col-6" style={{display:"flex !important"}}>
-                                <img src={require("../../images/service-details/cloudera7.png")} alt="Cloudera" style={{width:"50px", height:"50px", marginRight:"2em"}}/>
+                            <div className="col-6" style={{textAlign:"center"}}>
+                                <img src={require("../../images/service-details/cloudera7.png")} alt="Cloudera" style={{width:"100px", height:"100px", marginBottom:"2em"}}/>
                                 <h6>Apoio Técnico Especializado em Cloudera</h6>
                             </div>
                         </div>
@@ -120,11 +121,24 @@ class ServiceDetailsContent extends Component {
                         <div className="row align-items-center" style={{paddingTop:"20px",paddingBottom:"20px"}}>
                             <h4>Os melhores Especialistas em Tecnologia Cloudera</h4>
                         </div>
-                        <div className="d-flex justify-content-center partner align-items-center" style={{display:"flex !important", maxWidth:"900px", alignItems:"center !important"}}>
+                        <div className="d-flex justify-content-center partner align-items-center" style={{display:"flex !important", alignItems:"center !important"}}>
                                 <img src={require("../../images/service-details/cloudera12.png")} alt="Cloudera" style={{width:"auto", height:"200px", marginLeft:"0em", marginRight:"5em"}}/>
                                 <p>Com a qualificação de <strong>Cloudera Official Partners</strong>, estamos habilitados pela maior distribuidora de Hadoop à ajudar empresas a monitorizar e analisar grandes volumes de informação com recursos da tecnologia Cloudera. <br></br>Decidimos utilizar o Hadoop como plataforma de referência pela sua flexibilidade, escalabilidade e benefícios na redução de custos para os clientes.</p>
                         </div>
                     </div>
+                </div>
+
+                <div className="footer-section ptb-100"> 
+                    <div className="row align-items-center" style={{marginLeft:"auto",marginRight:"auto",maxWidth:"1140px"}}>
+                        <div className="col-6">
+                            <h2 style={{color:"#FAFAFA", fontSize:"2.5rem"}}>Quer entender como podemos ajudar a sua empresa?</h2>
+                        </div>
+                        <div className="col-6 align-items-center" style={{textAlign:"center"}}>
+                            <a href="/contact/" class="default-btn" style={{backgroundColor:"#53c8da",color:"#393953",paddingLeft:"20px",paddingRight:"20px",paddingTop:"10px",paddingBottom:"10px"}}>FALE COM NOSSOS REPRESENTANTES<span></span></a>
+                        </div>
+                        
+                    </div>
+
                 </div>
             </section>
         );

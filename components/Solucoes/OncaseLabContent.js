@@ -162,12 +162,12 @@ class ServiceDetailsContent extends Component {
                     </div>
                 </div>
 
-                <div className="footer-section ptb-100">
-                    <div className="row align-items-center" style={{paddingLeft:"75px"}}>
+                <div className="footer-section ptb-100"> 
+                    <div className="row align-items-center" style={{marginLeft:"auto",marginRight:"auto",maxWidth:"1140px"}}>
                         <div className="col-6">
                             <h2 style={{color:"#FAFAFA", fontSize:"2.5rem"}}>Quer entender como podemos ajudar a sua empresa?</h2>
                         </div>
-                        <div className="col-6 align-items-center">
+                        <div className="col-6 align-items-center" style={{textAlign:"center"}}>
                             <a href="/contact/" class="default-btn" style={{backgroundColor:"#53c8da",color:"#393953",paddingLeft:"20px",paddingRight:"20px",paddingTop:"10px",paddingBottom:"10px"}}>FALE COM NOSSOS REPRESENTANTES<span></span></a>
                         </div>
                         
