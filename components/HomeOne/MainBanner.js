@@ -15,7 +15,7 @@ class MainBanner extends Component {
                                         <h1 className="display-4" style={{fontWeight:"500"}}>Levamos inteligência aos seus dados</h1>
                                         <div className="row align-items-center">
                                         <div className="col-12 col-md-5 mb-2 mb-md-0">
-                                            <Link href="/about-us">
+                                            <Link href="/sobre-nos">
                                                 <a className="btn btn-block btn-lg btn-primary">Saiba mais</a>
                                             </Link>
                                         </div>

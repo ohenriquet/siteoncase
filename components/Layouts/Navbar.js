@@ -77,9 +77,17 @@ class Navbar extends Component {
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link href="/about-us">
+                                            <Link href="/sobre-nos">
                                                 <a className="nav-link">
                                                     Sobre Nós
+                                                </a>
+                                            </Link>
+                                        </li>
+
+                                        <li className="nav-item">
+                                            <Link href="https://blog.oncase.com.br">
+                                                <a className="nav-link">
+                                                    Blog
                                                 </a>
                                             </Link>
                                         </li>
@@ -112,8 +120,8 @@ class Navbar extends Component {
                                     </ul>
 
                                     <div className="others-options">
-                                        {/* <Link href="/contact" activeClassName="active"> */}
-                                            <a href="/contact/" className="default-btn" style={{color:"#53c8da"}}>
+                                        {/* <Link href="/contato" activeClassName="active"> */}
+                                            <a href="/contato/" className="default-btn" style={{color:"#53c8da"}}>
                                                 SOLICITE UMA PROPOSTA
                                                 <span style={{backgroundColor:"#6c757d",opacity:"0.2"}}></span>
                                             </a>

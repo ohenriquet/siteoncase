@@ -19,7 +19,7 @@ class WorkingProcess extends Component {
                                 <h3>Integração</h3>
                                 <p>O Scora se integra com dados internos e externos e gera um scoring baseado em machine learning</p>
                         
-                                <Link href="/about-us">
+                                <Link href="/sobre-nos">
                                     <a className="process-btn">
                                         Saiba mais
                                         <i className="flaticon-right"></i>
@@ -35,7 +35,7 @@ class WorkingProcess extends Component {
                                 <h3>Visualização</h3>
                                 <p>Personalizamos as visualizações sob medida com as suas necessidades, com regras customizadas</p>
                         
-                                <Link href="/about-us">
+                                <Link href="/sobre-nos">
                                     <a className="process-btn">
                                         Saiba mais
                                         <i className="flaticon-right"></i>
@@ -51,7 +51,7 @@ class WorkingProcess extends Component {
                                 <h3>Automação</h3>
                                 <p>A tomada de decisões é automatizada baseada em regras inteligentes de workflow</p>
                         
-                                <Link href="/about-us">
+                                <Link href="/sobre-nos">
                                     <a className="process-btn">
                                         Saiba mais
                                         <i className="flaticon-right"></i>

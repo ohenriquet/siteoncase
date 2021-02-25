@@ -15,7 +15,7 @@ class GetStartedProject extends Component {
                                 <p>Queremos pessoas legais, engajadas e animadas. Gente que não tem medo de arriscar, busca objetivos enormes e sabe que nada é impossível.</p>
 
                                 <div className="productive-btn">
-                                    <a className="productive-btn" href="/contact">
+                                    <a className="productive-btn" href="/contato">
                                         Entre em contato
                                         <span></span>
                                     </a>

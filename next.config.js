@@ -33,10 +33,10 @@ module.exports = withPlugins([
         exportPathMap: function () {
             return {
                 '/': { page: '/' },
-                '/contact': { page: '/contact' },
-                '/about-us': { page: '/about-us' },
+                '/contato': { page: '/contato' },
+                '/sobre-nos': { page: '/sobre-nos' },
                 '/big-data': { page: '/big-data' },
-                '/business-intelligence-analytics': { page: '/business-intelligence-analytics' },
+                '/scora-journey': { page: '/scora-journey' },
                 '/inteligencia-artificial': { page: '/inteligencia-artificial' },
                 '/oncase-labs': { page: '/oncase-labs' },
                 '/cloudera': { page: '/cloudera' },

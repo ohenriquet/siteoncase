@@ -38,7 +38,7 @@ class AboutUs extends Component {
                                     </li>
                                 </ul>
                                 
-                                <Link href="/about-us">
+                                <Link href="/sobre-nos">
                                     <a className="default-btn">
                                         Saiba mais <span></span>
                                     </a>

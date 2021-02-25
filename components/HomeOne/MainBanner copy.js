@@ -15,15 +15,15 @@ class MainBanner extends Component {
                                         <h1>Decisões inteligentes baseadas em dados</h1>
 
                                         <div className="banner-btn">
-                                            <Link href="/about-us">
+                                            <Link href="/sobre-nos">
                                                 <a className="default-btn-one">
                                                     Saiba mais
                                                     <span></span>
                                                 </a>
                                             </Link>
 
-                                            <Link href="/contact">
-                                                <a className="default-btn" href="/contact">
+                                            <Link href="/contato">
+                                                <a className="default-btn" href="/contato">
                                                     Entre em contato 
                                                     <span></span>
                                                 </a>
