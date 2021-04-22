@@ -42,8 +42,8 @@ class Navbar extends Component {
                             <nav className="navbar navbar-expand-md navbar-light">
                                 {/* <Link href="/"> */}
                                     <a href="/" className="navbar-brand" style={{maxWidth:175}}>
-                                        <img src={require("../../images/logo-white.webp")} className="white-logo" alt="logo" />
-                                        <img src={require("../../images/logo-black.webp")} className="black-logo" alt="logo" />
+                                        <img src={require("../../images/logo-white.png")} className="white-logo" alt="logo" />
+                                        <img src={require("../../images/logo-black.png")} className="black-logo" alt="logo" />
                                     </a>
                                 {/* </Link> */}
 

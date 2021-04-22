@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, lazy } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import MainBanner from '../components/HomeOne/MainBanner';
 import OurServices from '../components/HomeOne/OurServices';
@@ -12,13 +12,14 @@ class Index extends Component {
         return (
             <React.Fragment>
                 <Head>
-                    {/* <script type="text/javascript" src="../static/newsletter.js"></script> */}
-                    {/* <script type="text/javascript" src="../static/rdstation.js"></script> */}
-                    <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js" async></script>
-                    <script type="text/javascript" async> new RDStationForms('contato-site-oncase-684522cc1f1f67acc288', 'UA-72638634-1').createForm();</script>
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72638634-1"></script>
-                    <script type="text/javascript" src="/static/ganalytics.js" async></script>
-                    <script type="text/javascript" src="/static/neurologic.js" async></script>
+                    <link rel="preload" href="../../images/home/banner-estatico.webp" as="image"></link>
+                    <script type="text/javascript" defer src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+                    <script type="text/javascript" defer> new RDStationForms('contato-site-oncase-684522cc1f1f67acc288', 'UA-72638634-1').createForm();</script>
+                    <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-72638634-1"></script>
+                    <script type="text/javascript" src="/static/ganalytics.js" defer></script>
+                    <script type="text/javascript" src="/static/neurologic.js" defer></script>
+                    
+
                 </Head>
                 <Navbar />
                 

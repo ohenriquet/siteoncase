@@ -17,7 +17,6 @@ class ContactForm extends Component {
                             <div role="main" id="contato-site-oncase-684522cc1f1f67acc288"></div>
                         </div>
                     </div>
-                    <div role="main" id="contato-site-oncase-684522cc1f1f67acc288"></div>
                     
                 </div>
             </div>

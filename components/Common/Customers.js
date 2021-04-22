@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 class Customers extends Component {
     render() {
@@ -10,31 +10,31 @@ class Customers extends Component {
                 <div className="row justify-content-center justify-content-lg-between text-center align-items-center">
                     <div className="col mt-3 mb-lg-0">
                             <a>
-                                <img src={require("../../images/partner/partner1.png")} alt="MPD" />
+                                <img src={require("../../images/partner/partner1.webp")} alt="MPD" />
                             </a>
                     </div>
 
                     <div className="col mt-3 mb-lg-0">
                             <a>
-                                <img src={require("../../images/partner/partner2.png")} alt="CAERN" />
+                                <img src={require("../../images/partner/partner2.webp")} alt="CAERN" />
                             </a>
                     </div>
 
                     <div className="col mt-3 mb-lg-0">
                             <a>
-                                <img src={require("../../images/partner/partner3.png")} alt="CATENO" />
+                                <img src={require("../../images/partner/partner3.webp")} alt="CATENO" />
                             </a>
                     </div>
 
                     <div className="col mt-3 mb-lg-0">
                             <a>
-                                <img src={require("../../images/partner/partner4.png")} alt="CAIXA" />
+                                <img src={require("../../images/partner/partner4.webp")} alt="CAIXA" />
                             </a>
                     </div>
 
                     <div className="col mt-3 mb-lg-0">
                             <a>
-                                <img src={require("../../images/partner/partner5.png")} alt="SEBRAE" />
+                                <img src={require("../../images/partner/partner5.webp")} alt="SEBRAE" />
                             </a>
                     </div>
                 </div>

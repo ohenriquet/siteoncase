@@ -21,7 +21,7 @@ export default class MyApp extends App {
 
     // Preloader
     state = {
-        loading: true
+        loading: false
     };
     componentDidMount() {
         this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2000); 
