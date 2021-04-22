@@ -50,7 +50,14 @@ export default class MyApp extends App {
                 />
 
                 <Component {...pageProps} />
-                
+                {/* <script type="text/javascript" src="/static/rdstation-forms.min.js"></script> */}
+                <script type="text/javascript" src="/static/ganalytics.js"></script>
+                {/* <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossOrigin="anonymous"></script> */}
+                {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script> */}
+                {/* <script src="js/bootstrap.bundle.min.js"></script> */}
+                {/* <script type="text/javascript" src="/static/rdstation.js"></script> */}
+                {/* <script type="text/javascript" src="/static/newsletter.js"></script> */}
+                {/* <script type="text/javascript" src="/static/neurologic.js"></script> */}
                 {/* Preloader */}
                 <Loader loading={this.state.loading} />
 

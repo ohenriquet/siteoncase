@@ -63,21 +63,21 @@ class Navbar extends Component {
                                     <ul className="navbar-nav">
  
                                         <li className="nav-item">
-                                            <Link href="/oncase-labs">
+                                            <Link href="/oncase-labs/">
                                                 <a className="nav-link">
                                                     Cocriação
                                                 </a>
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link href="/scora-journey">
+                                            <Link href="/scora-journey/">
                                                 <a className="nav-link">
                                                     Jornada do Cliente
                                                 </a>
                                             </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link href="/sobre-nos">
+                                            <Link href="/sobre-nos/">
                                                 <a className="nav-link">
                                                     Sobre Nós
                                                 </a>
@@ -101,7 +101,7 @@ class Navbar extends Component {
 
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link href="/scora-journey" activeClassName="active">
+                                                    <Link href="/scora-journey/"  activeClassName="active">
                                                         <a className="nav-link">Jornada do Cliente</a>
                                                     </Link>
                                                 </li>

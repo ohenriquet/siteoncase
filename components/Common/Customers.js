@@ -38,13 +38,6 @@ class Customers extends Component {
                             </a>
                     </div>
                 </div>
-
-                <div className="partner-shape">
-                    <img src={require("../../images/home/Poligono-Lado-Esquerdo-Cima-Pagina_Home.png")} alt="main-image" />
-                </div>
-                <div className="partner-shape-img1">
-                    <img src={require("../../images/home/Poligono-Lado-Direito-Cima-Pagina_Home.png")} alt="image" />
-                </div>
             </div>
         );
     }

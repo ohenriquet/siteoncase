@@ -74,7 +74,7 @@ class OurServices extends Component {
                                 <center>
                                     <p>Somos especializados em soluções de Co-criação e Desenvolvimento de Produtos Analíticos, Sistemas de Predição ou Prescrição sob medida.</p>
                                     </center>
-                                <Link href="/oncase-labs">
+                                <Link href="/oncase-labs/" >
                                     <a className="service-btn">
                                         Saiba mais
                                         <i className="flaticon-right"></i>

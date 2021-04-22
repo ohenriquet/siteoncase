@@ -11,7 +11,7 @@ class Footer extends Component {
                 {/* Top Footer Section */}
                     <div className="footer-topo"></div>
                 <footer className="footer-section ptb-100" style={{paddingBottom:"50px",paddingTop:"65px"}}>
-                    <div className="container" style={{backgroundImage:"url(../../images/home/Footer.png)"}}>
+                    <div className="container">
                        <div className="row pt-4 mb-4 mb-lg-5">
                             <div className="col-12 col-lg-6 mb-4 mb-lg-0">
                                 <img className="mb-3" src={require("../../images/logo-white.png")} width="175" />
@@ -32,11 +32,11 @@ class Footer extends Component {
                             <div className="col-6 col-lg-3">
                                 <h4 style={{color:"#f8f9fa"}}>Soluções</h4>
                                 {/* <div className="mb-1"><a className="text-light" href="/plataforma"><span>Plataforma</span></a></div> */}
-                                <div className="mb-1"><Link href="/oncase-labs"><a className="text-light"><span>Cocriação</span></a></Link></div>
-                                <div className="mb-1"><Link href="/scora-journey"><a className="text-light"><span>Jornada do Cliente</span></a></Link></div>
+                                <div className="mb-1"><Link href="/oncase-labs/"><a className="text-light"><span>Cocriação</span></a></Link></div>
+                                <div className="mb-1"><Link href="/scora-journey/"><a className="text-light"><span>Jornada do Cliente</span></a></Link></div>
 
-                                {/* <div className="mb-1"><a className="text-light" href="/oncase-labs"><span>Cocriação</span></a></div>
-                                <div className="mb-1"><a className="text-light" href="/scora-journey"><span>Jornada do Cliente</span></a></div> */}
+                                {/* <div className="mb-1"><a className="text-light" href="/oncase-labs/" ><span>Cocriação</span></a></div>
+                                <div className="mb-1"><a className="text-light" href="/scora-journey/" ><span>Jornada do Cliente</span></a></div> */}
                                 {/* <div className="mb-1"><a className="text-light" href="/scora-acqua"><span>Saneamento</span></a></div>
                                 <div className="mb-1"><a className="text-light" href="/scora-demand"><span>Previsão de Demanda</span></a></div> */}
                             </div>
@@ -45,13 +45,13 @@ class Footer extends Component {
                                 <div className="mb-1"><a className="text-light" href="/big-data"><span>Tarantulla</span></a></div>
                                 <div className="mb-1"><a className="text-light" href="/business-intelligence-analytics"><span>Oktopus</span></a></div>
                                 <div className="mb-1"><a className="text-light" href="/inteligencia-artificial"><span>Inteligência Artificial</span></a></div>
-                                <div className="mb-1"><a className="text-light" href="/oncase-labs"><span>Oncase Labs</span></a></div>
+                                <div className="mb-1"><a className="text-light" href="/oncase-labs/" ><span>Oncase Labs</span></a></div>
                             </div> */}
                             <div className="col-6 col-lg-3">
                                 <h4 style={{color:"#f8f9fa"}}>Tecnologias</h4>
-                                <div className="mb-1"><Link href="/cloudera"><a className="text-light"><span>Cloudera</span></a></Link></div>
-                                <div className="mb-1"><Link href="/mongodb"><a className="text-light"><span>MongoDB</span></a></Link></div>
-                                <div className="mb-1"><Link href="/pentaho"><a className="text-light"><span>Pentaho</span></a></Link></div>
+                                <div className="mb-1"><Link href="/cloudera/"><a className="text-light"><span>Cloudera</span></a></Link></div>
+                                <div className="mb-1"><Link href="/mongodb/"><a className="text-light"><span>MongoDB</span></a></Link></div>
+                                <div className="mb-1"><Link href="/pentaho/"><a className="text-light"><span>Pentaho</span></a></Link></div>
                                 {/* <div className="mb-1"><a className="text-light" href="/cloudera"><span>Cloudera</span></a></div>
                                 <div className="mb-1"><a className="text-light" href="/mongodb"><span>MongoDB</span></a></div>
                                 <div className="mb-1"><a className="text-light" href="/Pentaho"><span>Pentaho</span></a></div> */}

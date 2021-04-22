@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 import ReactWOW from 'react-wow';
 
+<link rel="preload" href="../../images/home/banner-estatico.png" as="image"></link>
 class MainBanner extends Component {
     render() {
         return (
@@ -15,7 +16,7 @@ class MainBanner extends Component {
                                         <h1 className="display-4" style={{fontWeight:"500"}}>Levamos inteligência aos seus dados</h1>
                                         <div className="row align-items-center">
                                         <div className="col-12 col-md-5 mb-2 mb-md-0">
-                                            <Link href="/sobre-nos">
+                                            <Link href="/sobre-nos/">
                                                 <a className="btn btn-block btn-lg btn-primary">Saiba mais</a>
                                             </Link>
                                         </div>
