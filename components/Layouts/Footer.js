@@ -25,6 +25,7 @@ class Footer extends Component {
                                     <a className="transparent-link mr-2" href="//www.linkedin.com/company/oncase/"><i className="fab fa-linkedin" style={{color:"#d9d3d3"}}></i></a>
                                     <a className="transparent-link mr-2" href="//twitter.com/oncase"><i className="fab fa-twitter" style={{color:"#d9d3d3"}}></i></a>
                                     <Link href="https://blog.oncase.com.br"><a className="text-light">Blog</a></Link>
+                                     - <Link href="https://onca.se/vagas"><a className="text-light">Trabalhe Conosco</a></Link>
                                 </div>
                                 <div className="border-top mt-3 d-lg-none"></div>
                             </div>
