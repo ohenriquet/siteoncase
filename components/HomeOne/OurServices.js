@@ -19,7 +19,7 @@ class OurServices extends Component {
                         <div className="col-3">
                             <div className="mb-2">
                                     <Link href="/oncase-labs/" >
-                                        <img src={require("../../images/home/cocriacao.png")} alt="Oncase Cocriação"/>
+                                        <img src={require("../../images/home/cocriacao.webp")} alt="Oncase Cocriação"/>
                                     </Link>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ class OurServices extends Component {
                         <div className="col-3">
                             <div className="mb-2">
                             <Link href="/scora-journey/" >
-                                <img src={require("../../images/home/jornada.png")} alt="Scora Journey" />
+                                <img src={require("../../images/home/jornada.webp")} alt="Scora Journey" />
                             </Link>
                             </div>
                         </div>

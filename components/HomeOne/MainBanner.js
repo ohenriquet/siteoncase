@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 import ReactWOW from 'react-wow';
 
-<link rel="preload" href="../../images/home/banner-estatico.png" as="image"></link>
+<link rel="preload" href="../../images/home/banner-estatico.webp" as="image"></link>
 class MainBanner extends Component {
     render() {
         return (

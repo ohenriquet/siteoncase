@@ -14,7 +14,7 @@ class Footer extends Component {
                     <div className="container">
                        <div className="row pt-4 mb-4 mb-lg-5">
                             <div className="col-12 col-lg-6 mb-4 mb-lg-0">
-                                <img className="mb-3" src={require("../../images/logo-white.png")} width="175" />
+                                <img className="mb-3" src={require("../../images/logo-white.webp")} width="175" />
                                 <div className="mt-3 d-none d-lg-block">
                                     <p  style={{color:"#f8f9fa"}}>Somos parceiros na transformação digital das maiores organizações do Brasil e do mundo. Reunimos competências que combinam estratégias de Negócios e Tecnologia avançadas de Big Data, Business Intelligence, Analytics e Inteligência artificial para resolver problemas reais do mercado.</p>
                                 </div>
