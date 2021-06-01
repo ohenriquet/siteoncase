@@ -55,7 +55,7 @@ module.exports = withPlugins([
                 '/cloudera': { page: '/cloudera' },
                 '/mongodb': { page: '/mongodb' },
                 '/pentaho': { page: '/pentaho' },
-                '/inteligencia-artificial-vendas': { page: '/inteligencia-artificial-vendas' },
+                '/inteligencia-artificial-em-vendas': { page: '/inteligencia-artificial-em-vendas' },
                 '/o-que-e-etl': { page: '/o-que-e-etl' },
                 '/mapa-jornada-cliente': { page: '/mapa-jornada-cliente' }
 

@@ -9,6 +9,13 @@ import App from 'next/app';
 import { DefaultSeo } from 'next-seo';
 import Loader from '../components/Shared/Loader';
 import GoTop from '../components/Shared/GoTop';
+import React from "react";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 export default class MyApp extends App {
     // static async getInitialProps ({ Component, ctx }) {

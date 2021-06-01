@@ -60,7 +60,7 @@ class Footer extends Component {
                         </div>
                         <div className="row">
                             <div className="col">
-                            <div className="small mb-2 mb-lg-0"><span className="text-muted mr-5">&copy; {currentYear} Oncase. Todos os direitos reservados.</span></div>
+                            <div className="small mb-2 mb-lg-0"><span className="text-muted mr-5">&copy; {currentYear} Oncase. Todos os direitos reservados.</span><Link href="/static/codigo-de-etica.pdf"><a  style={{color:"#737b9a"}}>Código de ética</a></Link>  -  Política de privacidade</div>
                             </div>
                         </div>
                     </div>
