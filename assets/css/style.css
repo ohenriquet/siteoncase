@@ -3275,6 +3275,13 @@ Footer Section CSS
   letter-spacing: 1px;
 }
 
+.footer-links {
+  color: #737b9a;
+}
+
+.footer-links:hover{
+  color: #00b0ee;
+}
 /*================================================
 Copyright Section CSS
 =================================================*/
