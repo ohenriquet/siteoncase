@@ -18,13 +18,13 @@ class Footer extends Component {
                                 <div className="mt-3 d-none d-lg-block">
                                     <p  style={{color:"#f8f9fa"}}>Somos parceiros na transformação digital das maiores organizações do Brasil e do mundo. Reunimos competências que combinam estratégias de Negócios e Tecnologia avançadas de Big Data, Business Intelligence, Analytics e Inteligência artificial para resolver problemas reais do mercado.</p>
                                 </div>
-                                <div className="mt-3 d-none d-lg-block">
+                                <div className="mt-3 d-none d-lg-block" >
                                     <a className="transparent-link mr-2" href="//www.facebook.com/oncasesolucoes/"><i className="fab fa-facebook" style={{color:"#d9d3d3"}}></i></a>
                                     <a className="transparent-link mr-2" href="//www.youtube.com/c/OncaseBr"><i className="fab fa-youtube" style={{color:"#d9d3d3"}}></i></a>
                                     <a className="transparent-link mr-2" href="//www.instagram.com/oncasetecnologia/"><i className="fab fa-instagram" style={{color:"#d9d3d3"}}></i></a>
                                     <a className="transparent-link mr-2" href="//www.linkedin.com/company/oncase/"><i className="fab fa-linkedin" style={{color:"#d9d3d3"}}></i></a>
                                     <a className="transparent-link mr-2" href="//twitter.com/oncase"><i className="fab fa-twitter" style={{color:"#d9d3d3"}}></i></a>
-                                    <Link href="https://blog.oncase.com.br"><a className="text-light">Blog</a></Link>
+                                    <Link href="https://blog.oncase.com.br"><a className="text-light" style={{marginRight:"2.5rem"}}>Blog</a></Link>
                                      - <Link href="https://onca.se/vagas"><a className="text-light">Trabalhe Conosco</a></Link>
                                 </div>
                                 <div className="border-top mt-3 d-lg-none"></div>
@@ -60,7 +60,7 @@ class Footer extends Component {
                         </div>
                         <div className="row">
                             <div className="col">
-                            <div className="small mb-2 mb-lg-0"><span className="text-muted mr-5">&copy; {currentYear} Oncase. Todos os direitos reservados.</span><Link href="/static/codigo-de-etica.pdf"><a  className="footer-links">Código de ética</a></Link>  -  <Link href="/static/politica-publica-de seguranca-da-informacao-cibernetica.pdf"><a  className="footer-links">Política de Segurança da Informação e Cibernética</a></Link></div>
+                            <div className="small mb-2 mb-lg-0"><span className="text-muted mr-5">&copy; {currentYear} Oncase. Todos os direitos reservados.</span><Link href="/static/codigo-de-etica.pdf"><a  className="footer-links" style={{marginRight:"2.5rem"}}>Código de ética</a></Link>  -  <Link href="/static/politica-publica-de seguranca-da-informacao-cibernetica.pdf"><a  className="footer-links">Política de Segurança</a></Link></div>
                             </div>
                         </div>
                     </div>
