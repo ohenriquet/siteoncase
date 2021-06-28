@@ -25,9 +25,9 @@ jobs:
     - name: Run build task
       run: npm run arrudeia
     - name: Deploy to Server
-      uses: easingthemes/ssh-deploy@v2.1.5
+      uses: easingthemes/ssh-deploy@v2.2.11
       env:
-          SSH_PRIVATE_KEY: ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAhz8MYaW5zKAS41dKv+G3ZZ83vhEdYheaSkgNpq4a7CHArElt8H3e44iC4mq4gJIao4NrIN5p9QbR9yyyaUsqPUTGYLWFKZ/nKXBylAhltQl+JcVfrgLFmtB0SruNhKNoimJgScVM0D0N7hST0DxVtNPmcCdnwzAgOdcV8hPLL8JriT1TK4ZJkAfp21opBPx+Z6LcMgXZTsTu8W0Qu05fVAJx0Rvl1cPER8l3bEIGeyYnTZitXIETDNDD8Vc9nG2TtvgcwZlsYLm4lIIkYyjECiMaTDVhnlzvfE3qBtI7E2q/WR2xaG6TXqvCJlEDFOG5mtgSL0KUsWM4PiyuyvURUQ== rsa-key-20210209
+          SSH_PRIVATE_KEY: SHA256:9hI5U6eA86Tjj3liY98CrL/Zj6FHPw1Tu2oTEuVizJo
           ARGS: "-rltgoDzvO --delete"
           SOURCE: "dist/out/"
           REMOTE_HOST: ftp.oncase.com.br
